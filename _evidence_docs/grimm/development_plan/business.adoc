@@ -2,12 +2,59 @@
 
 === Target market
 
+* The system is primarily intended to replace the existing SRA and SRA+ analysis.
+
+* The system is to be used in clinical and outpatient settings.
+
+* The approval is initially planned for the scope of the MDR. In perspective, possibly also the US market.
+
 === Target group
+
+* Clinics or physicians in private practice who examine patients for cardiological disease patterns.
 
 === Similar products
 
+There are no really comparable products that can use different holter and monitoring systems for analysis and findings support and can perform a full ECG evaluation. The products each cover only one aspect of the ARC product. The following classification or categorization (without claim to completeness of the products and manufacturers mentioned)
+
+1. products that evaluate ECG analyses on the basis of an AI algorithm (only for own Holter)
+
+* Cardiologs
+
+* Cardiometric
+
+* Preventice Solutions
+
+2. products that do analysis based on wearables and smart phones (single-lead ECGs with no potential for full ECG analysis).
+
+* CardioCoach
+
+* Preventicus
+
+* Rithmi
+
+* Fibricheck
+
+3. services that combine specific Holter and analysis and offer them to office-based physicians
+
+* MySmartHeart
+
+4. holter manufacturers with combined ECG analysis
+
+* Philips ePatch
+
+* Zio-iRhythm
+
+* Zenicor
+
+5. implantable loop recorders
+
+* Medtronic
+
+
 == Staff
-<Fill here>
+* RA
+* PO
+* R&D
 
 == Hardware and Software
-<Fill here>
+* Cloud provider

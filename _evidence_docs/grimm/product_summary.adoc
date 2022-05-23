@@ -5,6 +5,14 @@ include::product_properties.adoc[]
 
 == Product description
 // Short description of
+// Short description of
+{product_id} is used to detect atrial fibrillation (AF) as a risk factor for stroke as reliably as possible.
+The core of {product_id} is the analysis algorithm based on AI (artificial Intelligence).
+It evaluates long-term ECG data and identifies patients with acute AF or an increased probability of paroxysmal AF.
+The user receives an analysis report including a 5-minute ECG section with the result, which can optionally be automatically transferred to an HIS.
+The results of the analysis serve as a decision support for the diagnosis by a physician.
+{product_id} cannot replace a medical diagnosis.
+Therefore, never use {product_id} as the sole basis for your diagnosis and treatment decision.
 
 == Product Owner
 {product_owner}
