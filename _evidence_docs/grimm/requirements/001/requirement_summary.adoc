@@ -1,0 +1,32 @@
+include::requirement_properties.adoc[]
+
+== Responsible
+*{requirement_responsible}*
+is the contact person for this requirement.
+The contact person accompanies this requirement over the entire life cycle.
+
+== Identifier
+
+{requirement_id} : {requirement_name}
+
+== Description
+
+=== What should be improved/solved with the requirement?
+// Describe short what should be improved!
+// If the improvement comes from feedback, use the specific example to show the benefits of the improvement.
+// If possible, describe a potential solution
+// Use bullet points for description
+// if needed add screenshots, wireframes or prototypes
+
+// An example:
+// * At an intersection 50 people die every year
+// * There are current no rules at the intersection
+// * Potential solution: Install rules at this intersection, like traffic lights
+
+
+=== Acceptance critera for a solution
+// Describe when you consider the requirement to be solved?
+
+// An example:
+// * 30% fewer accidents
+// * 50% fewer dead

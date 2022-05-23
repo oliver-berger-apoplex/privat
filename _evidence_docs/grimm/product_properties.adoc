@@ -1,0 +1,13 @@
+include::resources/config/config.adoc[]
+
+// Define the product id
+:product_id: ARC
+
+:product_owner: Tony Stark
+
+// Does this requirement have a medical purpose?
+// 0 --> No, 1 --> Yes
+:medical_device: 0
+
+// 0 --> Not defined, 1 --> Software, 2 --> Software and Hardware
+:product_type: 0

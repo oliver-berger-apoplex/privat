@@ -1,0 +1,47 @@
+== Change to existing medical device
+
+|===
+|Significance according to G1.05.01.00.RXX
+
+|[__] significant: Inform notified body about the planned change.
+
+|[__] not significant: Document the reasoning and move on.
+
+|Comment: 
+
+|===
+
+|===
+|Impact on existing technical documentation
+
+|[__] Update of risk management file (including cybersecurity) required.
+
+|[__] Update of clinical evaluation required.
+
+|[__] Update of usability file required.
+
+|[__] Update of other documents required:
+
+|[__] No changes required.
+
+| Comment: 
+
+|===
+
+|===
+|Marketing / Sales activities
+
+|[__] Customer information required.
+
+|[__] New / changed marketing materials required.
+
+|[__] Other activities required:
+
+|[__] No activities required.
+
+| Comment: 
+
+|===
+
+
+

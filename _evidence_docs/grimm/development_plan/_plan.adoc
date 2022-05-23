@@ -1,0 +1,20 @@
+:pdf-themesdir: ../resources/themes
+:toc:
+include::../product_properties.adoc[]
+= Development plan
+:author: Head of R&D
+:documentname: G1.01.Development Plan
+
+
+== Product description
+include::../product_summary.adoc[leveloffset=+1]
+
+== Business Plan
+include::business.adoc[leveloffset=+1]
+
+== Regulatory
+include::regulatory.adoc[leveloffset=+1]
+
+ifeval::[{product_type} == 1]
+include::software_development_plan.adoc[]
+endif::[]

@@ -1,0 +1,6 @@
+== Intended Use
+include::intended_use.adoc[]
+
+ifeval::[{medical_device} == 1]
+include::optional_medical_device.adoc[]
+endif::[]

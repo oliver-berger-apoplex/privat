@@ -1,0 +1,9 @@
+== Medical Device risk class
+
+== Indications and contraindications
+
+== Essential performance
+
+== Regulatory requirements
+
+include::optional_change_to_MD.adoc[]

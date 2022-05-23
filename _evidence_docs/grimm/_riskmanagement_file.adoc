@@ -1,0 +1,39 @@
+:pdf-themesdir: resources/themes
+include::product_properties.adoc[]
+= Risk management file
+:author: Head of R&D
+:documentname: G1.01.RiskManagementFile
+
+
+include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[]
+
+== Risk/benefit analysis
+
+== Conclusion
+|===
+|Review of risk management process
+
+|[__] the risk management plan has been appropriately implemented
+
+|[__] the overall residual risk is acceptable
+
+|[__] appropriate methods are in place to obtain relevant production and post-production information.
+|===
+
+== Approval
+
+|===
+|Approver |Date |Signature
+
+|Product owner
+|
+|
+
+|R&D
+|
+|
+
+|QM/RA
+|
+|
+|===

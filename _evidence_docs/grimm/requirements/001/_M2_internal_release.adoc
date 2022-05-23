@@ -1,0 +1,38 @@
+:pdf-themesdir: ../../resources/themes
+include::requirement_properties.adoc[]
+= M2 Internal Release
+:author: Head of R&D
+:documentname: G1.01.Productproposa
+
+*Requirement:* {requirement_id}
+
+== Test records from Use Cases
+include::use_cases/uc_*/verification.adoc[leveloffset=+1]
+
+[discrete]
+== Approval
+
+.Checklist
+[cols="h, d"]
+|===
+|Verification complete and successful?
+|
+
+|Risks for each use case defined?
+|
+
+|Release notes and known anomalies documented?
+|
+|===
+
+|===
+|Approver |Date |Signature
+
+|PO
+|01.02.2022
+|
+
+|R&D
+|01.02.2022
+|
+|===

@@ -1,0 +1,97 @@
+= How to document
+
+== Basics
+* Template for evidence documentation of the process G1.01.00.00.RXX (Product Development)
+* All evidence documents are generated from AsciiDoc
+* The respective content is compiled from various fragments to a PDF file
+* All PDFs are stored in sharepoint
+
+== Why asciidoc
+* Audit trail
+** Visualization of changes in git
+* Consistency of the documentation
+* Easy to reference doc snippets
+* Different views, depending on the requirement
+
+== How to fill the documents based on G1.01.00.00.R07
+* Preparations for a new product
+** Create new branch of this template for the product
+
+* Step 3.1
+** Set in `product_properties.adoc` the Product Name and the product owner
+** Fill
+*** `product_summary.adoc`
+*** `development_plan/business.adoc`
+** Approve `_M0_product_proposal.adoc`
+*** Save the signed PDF in the original folder
+
+* Step 3.2
+** Create a new requirement
+*** Copy folder `001` under `requirements`  and name the copied folder `002` etc.
+** In requirement folder fill
+*** `requirement_properties.adoc`
+**** Set requirement revision, if needed
+**** Set responsible for requirement
+*** `requirement_summary.adoc`
+*** describe one exemplary `use_case.adoc` under `use cases`
+** Approve `_proposal.adoc`
+*** Save the signed PDF in the original folder
+
+* Step 3.3
+** If necessary refine `requirement_summary.adoc`
+** Create a new Use Case
+*** Copy folder `uc_001` and name the new folder `uc_002` etc.
+** For each Use Case fill
+*** `use_case.adoc`
+*** `use_case_properties.adoc`
+*** In risks folder define each risk for this Use Case by filling `risk_xxx.doc`
+*** from risk 002 and up delete the risk counter
+** If the requirement have a medical purpose set property `medical_device` to `1` in `product_properties.adoc`
+** If requirement is ready to develop
+*** Approve `_M1_requirement_profile.adoc`
+*** Save the signed PDF in the original folder
+
+* Step 3.4
+** Fill `development_plan/_plan.adoc`
+*** `development_plan/intended_use.adoc`
+** If product has medical purpose fill or complete
+*** `optional_medical_device.adoc`
+*** If change to an existing medical device fill `optional_change_to_MD.adoc`
+*** Set property `medical_device` in `product_properties.adoc` to `1`
+*** Set kind of product by setting the property  `product_type` in `product_properties.adoc`
+
+* Step 3.5
+--
+
+* Step 3.6
+--
+
+* Step 3.7
+** Fill `development_file`
+*** `_requirement_specification.adoc`
+*** `_usability_file.adoc`
+** If product type = software
+*** Fill `software_development_plan.adoc`
+** Export release documentation to PDF
+** Export instructions for use to PDF
+
+* Step 3.8
+** For each Use Case fill `verification.adoc`
+** Fill and approve `_M2_internal_release.adoc`
+** Save the signed PDF in the original folder
+
+* Step 3.9
+--
+
+* Step 3.10
+** Fill and approve `_M3_validation_approval.adoc`
+** Save the signed PDF in the original folder
+
+* Step 3.11
+--
+
+* Step 3.12
+** Fill and approve `_M4_production.adoc`
+** Save the signed PDF in the original folder
+
+* Step 3.13

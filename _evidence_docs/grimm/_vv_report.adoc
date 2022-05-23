@@ -1,0 +1,70 @@
+:pdf-themesdir: resources/themes
+include::product_properties.adoc[]
+:toc:
+= Verification and Validation Report
+:author: Head of R&D
+:documentname: G1.01.Verification and Validation Report
+
+== Product
+
+include::product_summary.adoc[leveloffset=+1]
+
+== Verification
+include::requirements/*/use_cases/uc_*/verification.adoc[leveloffset=+1]
+
+:leveloffset: 0
+=== Conclusion
+
+== Validation
+
+|===
+|Clinical evaluation: Results and Records 
+
+|[__] positive: There is enough clinical data to provide evidence of the product's clinical safety and performance. The benefits outweigh the risks. See clinical evaluation:
+
+|[__] negative: There is *not* enough clinical data to provide evidence of the product's clinical safety and performance. The benefits *do not* outweigh the risks.
+
+|[__] not applicable
+
+|===
+
+|===
+|Summative evaluation: Results and Records 
+
+|[__] positive: There is enough objective evidence, that the user interface(s) can be used safely. See summative evaluation:
+
+|[__] negative: There is *not* enough objective evidence, that the user interface(s) can be used safely.
+
+|[__] not applicable
+
+|===
+
+|===
+|Other methods of validation: Results and Records* 
+
+|[__] positive:  
+
+|[__] negative:
+
+|[__] not applicable
+
+|===
+*Description of methods: see validation plan
+
+== Approval
+
+|===
+|Approver |Date |Signature
+
+|Product owner
+|
+|
+
+|R&D
+|
+|
+
+|QM/RA
+|
+|
+|===

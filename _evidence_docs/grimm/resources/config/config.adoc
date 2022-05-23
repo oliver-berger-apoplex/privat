@@ -1,0 +1,15 @@
+:toclevels: 10
+:sectnumlevels: 10
+:toc-title: Table of contents
+:numbered:
+:chapter-label:
+:pdf-theme: apx
+:doctype: book
+:source-highlighter: rouge
+// disable table caption and numeration
+:table-caption!:
+
+// Template specific parameters
+:templateversion: 2
+:organization: apoplex medical technologies
+:releasedate: 19.05.2022

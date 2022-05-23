@@ -1,0 +1,12 @@
+:pdf-themesdir: ../../resources/themes
+include::requirement_properties.adoc[]
+:toc:
+= Requirement Profile
+:author: Head of R&D
+:documentname: G1.01.Requirement_Profile
+
+== Summary
+include::requirement_summary.adoc[leveloffset=+1]
+
+== Use Cases
+include::use_cases/uc_*/use_case.adoc[leveloffset=+1]

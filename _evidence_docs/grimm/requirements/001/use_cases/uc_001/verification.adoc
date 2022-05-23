@@ -1,0 +1,8 @@
+include::use_case_properties.adoc[]
+== Verification {use_case_id} {use_case_name}
+
+=== Data set
+
+=== Execution
+
+=== Records and results

@@ -1,0 +1,6 @@
+:pdf-themesdir: ../../../resources/themes
+include::../requirement_properties.adoc[]
+:toc:
+= Usability File
+:author: Head of R&D
+:documentname: G1.01.Usabilty_File

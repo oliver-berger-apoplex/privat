@@ -1,0 +1,17 @@
+include::use_case_properties.adoc[]
+== Use Case {use_case_id} ({use_case_name})
+* Personas
+** <Involved persons>
+** <Involved external systems>
+* Preconditions
+** <Text>
+* Procedure
+** <Text>
+* Expected result
+** <Text>
+
+ifndef::requirement_proposal[]
+=== Risks
+include::risks/risk_*.adoc[leveloffset=+2]
+include::verification.adoc[leveloffset=+1]
+endif::[]

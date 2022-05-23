@@ -1,0 +1,10 @@
+include::product_properties.adoc[]
+
+== Product id
+{product_id}
+
+== Product description
+// Short description of
+
+== Product Owner
+{product_owner}
