@@ -12,6 +12,9 @@ The contact person accompanies this requirement over the entire life cycle.
 == Description
 
 === What should be improved/solved with the requirement?
+* Customer of apoplex record ecg data
+* To analyse the ecg data, it must be transferred to apoplex
+
 // Describe short what should be improved!
 // If the improvement comes from feedback, use the specific example to show the benefits of the improvement.
 // If possible, describe a potential solution
@@ -25,6 +28,11 @@ The contact person accompanies this requirement over the entire life cycle.
 
 
 === Acceptance critera for a solution
+* apoplex received ecg data from customer
+* The received data must be uniquely identifiable
+* It must be ensured that the transmitted ecg data can be assigned to a customer and a patient without any patient information
+* It must be ensured that the data received is supported and complete
+
 // Describe when you consider the requirement to be solved?
 
 // An example:

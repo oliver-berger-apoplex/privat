@@ -10,7 +10,7 @@ include::../../resources/config/config.adoc[]
 :requirement_id: {product_id}-Req{requirement_counter}_{revision}
 
 // a human readable name
-:requirement_name: Build a Knife
+:requirement_name: Receive ECG files
 
 // define a requirement responsible
-:requirement_responsible: Wanda Maximoff
+:requirement_responsible: Lukas Oremek
