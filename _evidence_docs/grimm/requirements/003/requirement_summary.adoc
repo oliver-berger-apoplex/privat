@@ -1,0 +1,22 @@
+include::requirement_properties.adoc[]
+
+== Responsible
+*{requirement_responsible}*
+is the contact person for this requirement.
+The contact person accompanies this requirement over the entire life cycle.
+
+== Identifier
+
+{requirement_id} : {requirement_name}
+
+== Description
+
+=== What should be improved/solved with the requirement?
+* Authorized users needs to be informed when the analysis is completed.
+* They need to receive access to the analysis result.
+* The result is available in human-readable and machine-readable formats.
+
+
+=== Acceptance criteria for a solution
+* Authorized Users can access the correct result (Effectivity)
+* Authorized Users generally do not need more than 20 seconds to access the result (Efficiency)
