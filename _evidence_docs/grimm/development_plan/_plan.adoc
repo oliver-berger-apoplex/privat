@@ -1,9 +1,9 @@
 :pdf-themesdir: ../resources/themes
 :toc:
 include::../product_properties.adoc[]
-= Development plan
+= {documentname}
 :author: Head of R&D
-:documentname: G1.01.Development Plan
+:documentname: G1.01.Development_Plan
 
 
 == Product description

@@ -1,9 +1,9 @@
 :pdf-themesdir: resources/themes
 include::product_properties.adoc[]
 :toc:
-= Verification and Validation Report
+= {documentname}
 :author: Head of R&D
-:documentname: G1.01.Verification and Validation Report
+:documentname: G1.01.Verification_and_Validation_Report
 
 == Product
 

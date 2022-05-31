@@ -30,6 +30,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# PDF files
+*.pdf
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -55,8 +58,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# PDFs
-*.pdf
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows

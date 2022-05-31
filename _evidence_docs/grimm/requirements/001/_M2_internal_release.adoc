@@ -1,8 +1,8 @@
 :pdf-themesdir: ../../resources/themes
 include::requirement_properties.adoc[]
-= M2 Internal Release
+= {documentname}
 :author: Head of R&D
-:documentname: G1.01.Productproposa
+:documentname: G1.01.M2_Internal_release
 
 *Requirement:* {requirement_id}
 

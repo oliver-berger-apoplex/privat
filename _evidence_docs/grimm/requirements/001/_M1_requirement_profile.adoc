@@ -1,6 +1,6 @@
 :pdf-themesdir: ../../resources/themes
 include::requirement_properties.adoc[]
-= M1 Approval
+= {documentname}
 :author: Head of R&D
 :documentname: G1.01.M1_Approval
 

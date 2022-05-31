@@ -1,9 +1,9 @@
 :pdf-themesdir: ../../resources/themes
 include::requirement_properties.adoc[]
 :toc:
-= Requirement Profile
+= {documentname}
 :author: Head of R&D
-:documentname: G1.01.Requirement_Profile
+:documentname: G1.01.Requirement_profile
 
 == Summary
 include::requirement_summary.adoc[leveloffset=+1]

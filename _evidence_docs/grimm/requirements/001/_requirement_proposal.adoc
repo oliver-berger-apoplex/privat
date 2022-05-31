@@ -1,9 +1,8 @@
 :pdf-themesdir: ../../resources/themes
 include::requirement_properties.adoc[]
-= Requirementproposal
+= {documentname}
 :author: Head of R&D
-:documentname: G1.01.Requirementproposal
-:requirement_proposal:
+:documentname: G1.01.Requirement_proposal
 
 include::requirement_summary.adoc[leveloffset=+1]
 

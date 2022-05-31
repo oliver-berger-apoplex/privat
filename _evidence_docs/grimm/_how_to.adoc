@@ -34,7 +34,7 @@
 **** Set responsible for requirement
 *** `requirement_summary.adoc`
 *** describe one exemplary `use_case.adoc` under `use cases`
-** Approve `_proposal.adoc`
+** Approve `_requirement_proposal.adoc`
 *** Save the signed PDF in the original folder
 
 * Step 3.3
