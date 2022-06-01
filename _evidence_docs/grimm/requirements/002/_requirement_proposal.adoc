@@ -1,0 +1,29 @@
+:pdf-themesdir: ../../resources/themes
+include::requirement_properties.adoc[]
+= {documentname}
+:author: Head of R&D
+:documentname: G1.01.Requirement_proposal
+:requirement_proposal:
+
+include::requirement_summary.adoc[leveloffset=+1]
+
+=== Exemplary use case
+include::use_cases/uc_001/use_case.adoc[leveloffset=+2]
+
+== Approval
+
+|===
+|Approver |Date |Signature
+
+|PO
+|
+|
+
+|Requirement Responsible
+|
+|
+
+|R&D
+|
+|
+|===

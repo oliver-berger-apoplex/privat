@@ -1,0 +1,37 @@
+include::requirement_properties.adoc[]
+
+== Responsible
+*{requirement_responsible}*
+is the contact person for this requirement.
+The contact person accompanies this requirement over the entire life cycle.
+
+== Identifier
+
+{requirement_id} : {requirement_name}
+
+== Description
+
+=== What should be improved/solved with the requirement?
+* Analyze a given ecg including all available channels
+** Detect and annotate episodes of Atrial Fibrillation (AF) and Atrial Flutter (AFl) of 30s and more
+** Detect and annotate signal noise and artefacts in each channel
+** Calculate the atrial fibrillation burden (AF Burden) in terms of
+*** the longest episode of AF/AFl measured in seconds
+*** the percentage of AF/AFl, e.g., 14% for a total of 42s of af in a 300s recording
+** Calculate the Heart Rate Variability (HRV) using root mean square of successive differences (RMSSD) in milliseconds
+** Calculate the signal quality in terms of net time without artefacts or signal noise
+** Calculate the heart rate (exclude noisy areas to avoid measurement errors)
+** Analysis result is uniquely identifiable (without referencing the specific patient)
+
+=== Acceptance critera for a solution
+* AF was correctly detected and annotated
+* Noise was correctly detected and annotated
+* Calculated AF burden
+* Calculated HRV
+* Calculated signal quality
+* Calculated heart rate
+
+* Notes for proposal:
+** The Analysis will have a medical purpose. This makes the following steps necessary:
+*** More detailed acceptance criteria will be part of the validation plan and clinical evaluation
+*** Precise definition is therefore made in the corresponding process activities
