@@ -1,0 +1,28 @@
+include::requirement_properties.adoc[]
+
+== Responsible
+*{requirement_responsible}*
+is the contact person for this requirement.
+The contact person accompanies this requirement over the entire life cycle.
+
+== Identifier
+
+{requirement_id} : {requirement_name}
+
+== Description
+
+=== What should be improved/solved with the requirement?
+* An authorized user is able to look at consolidation of the important analysis result insights.
+* An authorized user is able to look at a visualization of the analysis raw data.
+* An authorized user is able to look at a printable document format.
+
+=== Acceptance criteria for a solution
+* The user needs maximum 3 seconds to classify the result.
+* A printable document format is available.
+
+
+// Describe when you consider the requirement to be solved?
+
+// An example:
+// * 30% fewer accidents
+// * 50% fewer dead

@@ -1,0 +1,21 @@
+:pdf-themesdir: ../../resources/themes
+include::requirement_properties.adoc[]
+= {documentname}
+:author: Head of R&D
+:documentname: G1.01.M1_Approval
+
+*Appendix:* Requirement Profile with id `{requirement_id}`
+
+[discrete]
+== Approval
+|===
+|Approver |Date |Signature
+
+|PO
+|
+|
+
+|R&D
+|
+|
+|===

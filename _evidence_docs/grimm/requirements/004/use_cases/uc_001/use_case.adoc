@@ -1,0 +1,19 @@
+include::use_case_properties.adoc[]
+== Use Case {use_case_id} ({use_case_name})
+* Personas
+** Employee in a private medical practice
+** Desktop PC of the practice
+* Preconditions
+** ECG data of a patient with AF is recorded and available for analysis
+* Procedure
+** The ECG data is transferred for analysis.
+** The result notification is received
+** The included link in the received result is opened
+* Expected result
+** The employee interprets the visualized analysis result as AF.
+
+ifndef::requirement_proposal[]
+=== Risks
+include::risks/risk_*.adoc[leveloffset=+2]
+include::verification.adoc[leveloffset=+1]
+endif::[]

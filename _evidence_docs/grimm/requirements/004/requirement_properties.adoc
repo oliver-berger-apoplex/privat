@@ -1,0 +1,16 @@
+include::../../product_properties.adoc[]
+include::../../resources/config/config.adoc[]
+
+:requirement_counter: 4
+:revision: 1
+// Does this requirement have a medical purpose?
+// 0 --> No, 1 --> Yes
+:medical-device: 0
+
+:requirement_id: {product_id}-Req{requirement_counter}_{revision}
+
+// a human readable name
+:requirement_name: Visualize Analysis Results
+
+// define a requirement responsible
+:requirement_responsible: Lukas Scheerer

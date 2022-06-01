@@ -1,0 +1,36 @@
+:pdf-themesdir: ../../resources/themes
+include::requirement_properties.adoc[]
+= {documentname}
+:author: Head of R&D
+:documentname: G1.01.M3_Valdation_approval
+
+*Requirement ID:* {requirement_id}
+
+[discrete]
+== Approval
+
+.Checklist
+[cols="h, d"]
+|===
+|Validation report complete?
+|
+
+|Instructions for use released?
+|
+
+|Deployment instructions are completed?
+|
+|===
+
+
+|===
+|Approver |Date |Signature
+
+|PO
+|01.02.2022
+|
+
+|R&D
+|01.02.2022
+|
+|===
