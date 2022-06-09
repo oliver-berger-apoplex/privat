@@ -3,6 +3,7 @@ include::requirement_properties.adoc[]
 = {documentname}
 :author: Head of R&D
 :documentname: G1.01.Requirement_proposal
+:requirement_proposal:
 
 include::requirement_summary.adoc[leveloffset=+1]
 
