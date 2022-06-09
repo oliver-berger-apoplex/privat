@@ -10,6 +10,6 @@
 :table-caption!:
 
 // Template specific parameters
-:templateversion: 3
+:templateversion: 4
 :organization: apoplex medical technologies
-:releasedate: 31.05.2022
+:releasedate: 08.06.2022

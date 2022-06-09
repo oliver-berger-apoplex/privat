@@ -23,7 +23,7 @@ The contact person accompanies this requirement over the entire life cycle.
 ** Calculate the heart rate (exclude noisy areas to avoid measurement errors)
 ** Analysis result is uniquely identifiable (without referencing the specific patient)
 
-=== Acceptance critera for a solution
+=== Value
 * AF was correctly detected and annotated
 * Noise was correctly detected and annotated
 * Calculated AF burden

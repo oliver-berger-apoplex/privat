@@ -4,6 +4,7 @@ include::product_properties.adoc[]
 :author: Head of R&D
 :documentname: G1.01.Risk_management_file
 
+
 include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[]
 
 == Risk/benefit analysis
@@ -22,17 +23,14 @@ include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[]
 == Approval
 
 |===
-|Approver |Date |Signature
+|Approver |Date and signature
 
 |Product owner
-|
 |
 
 |R&D
 |
-|
 
 |QM/RA
-|
 |
 |===

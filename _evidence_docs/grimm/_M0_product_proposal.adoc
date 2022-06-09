@@ -13,18 +13,15 @@ include::development_plan/business.adoc[leveloffset=+1]
 == Approval
 
 |===
-|Approver |Date |Sign
+|Approver |Date and signature
 
 |CEO
-|
 |
 
 |QMB
 |
-|
 
 |Product owner
-|
 |
 |===
 

@@ -54,17 +54,14 @@ include::requirements/*/use_cases/uc_*/verification.adoc[leveloffset=+1]
 == Approval
 
 |===
-|Approver |Date |Signature
+|Approver |Date and signature
 
 |Product owner
-|
 |
 
 |R&D
 |
-|
 
 |QM/RA
-|
 |
 |===

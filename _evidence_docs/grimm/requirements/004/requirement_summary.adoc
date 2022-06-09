@@ -16,13 +16,6 @@ The contact person accompanies this requirement over the entire life cycle.
 * An authorized user is able to look at a visualization of the analysis raw data.
 * An authorized user is able to look at a printable document format.
 
-=== Acceptance criteria for a solution
+=== Value
 * The user needs maximum 3 seconds to classify the result.
 * A printable document format is available.
-
-
-// Describe when you consider the requirement to be solved?
-
-// An example:
-// * 30% fewer accidents
-// * 50% fewer dead

@@ -12,17 +12,14 @@ include::use_cases/uc_001/use_case.adoc[leveloffset=+2]
 == Approval
 
 |===
-|Approver |Date |Signature
+|Approver |Date and signature
 
 |PO
-|
 |
 
 |Requirement Responsible
 |
-|
 
 |R&D
-|
 |
 |===
