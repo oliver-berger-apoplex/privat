@@ -9,13 +9,12 @@ include::requirement_properties.adoc[]
 [discrete]
 == Approval
 |===
-|Approver |Date |Signature
+|Approver |Date and signature
 
 |PO
-|
 |
 
 |R&D
 |
-|
 |===
+

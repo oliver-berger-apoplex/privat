@@ -24,13 +24,11 @@ include::requirement_properties.adoc[]
 
 
 |===
-|Approver |Date |Signature
+|Approver |Date and signature
 
 |PO
-|01.02.2022
 |
 
 |R&D
-|01.02.2022
 |
 |===

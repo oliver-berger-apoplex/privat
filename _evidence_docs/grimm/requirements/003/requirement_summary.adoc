@@ -17,6 +17,6 @@ The contact person accompanies this requirement over the entire life cycle.
 * The result is available in human-readable and machine-readable formats.
 
 
-=== Acceptance criteria for a solution
+=== Value
 * Authorized Users can access the correct result (Effectivity)
 * Authorized Users generally do not need more than 20 seconds to access the result (Efficiency)
