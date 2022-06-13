@@ -3,6 +3,6 @@ include::../../requirement_properties.adoc[]
 :use_case_counter: 0
 
 :use_case_number: {counter:use_case_counter}
-:use_case_name: First Use Case
+:use_case_name: AF
 
 :use_case_id: {requirement_id}-Uc{use_case_number}

@@ -12,11 +12,13 @@ The contact person accompanies this requirement over the entire life cycle.
 == Description
 
 === What should be improved/solved with the requirement?
-* Authorized users needs to be informed when the analysis is completed.
-* They need to receive access to the analysis result.
-* The result is available in human-readable and machine-readable formats.
 
+This requirement has been merged with requirement ARC-Req2_X.
+
+*Reasoning*
+
+* The requirement depends on ARC-Req2_X to define use cases and risks that lead to repetition.
+* The proposal includes technical implementation details that provide no value from a domain perspective.
 
 === Value
-* Authorized Users can access the correct result (Effectivity)
-* Authorized Users generally do not need more than 20 seconds to access the result (Efficiency)
+* See merged requirement

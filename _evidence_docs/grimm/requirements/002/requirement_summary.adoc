@@ -12,7 +12,8 @@ The contact person accompanies this requirement over the entire life cycle.
 == Description
 
 === What should be improved/solved with the requirement?
-* Analyze a given ecg including all available channels
+* Analyze an ecg including all available ecg channels
+** Support for multiple <<Supported Devices, ECG devices>>
 ** Detect and annotate episodes of Atrial Fibrillation (AF) and Atrial Flutter (AFl) of 30s and more
 ** Detect and annotate signal noise and artefacts in each channel
 ** Calculate the atrial fibrillation burden (AF Burden) in terms of
@@ -24,14 +25,24 @@ The contact person accompanies this requirement over the entire life cycle.
 ** Analysis result is uniquely identifiable (without referencing the specific patient)
 
 === Value
-* AF was correctly detected and annotated
-* Noise was correctly detected and annotated
-* Calculated AF burden
-* Calculated HRV
-* Calculated signal quality
-* Calculated heart rate
+* Analysis result include following information:
+** AF was correctly detected and annotated
+** Noise was correctly detected and annotated
+** Calculated AF burden
+** Calculated HRV
+** Calculated signal quality
+** Calculated heart rate
+
+* Authorized user can access the correct result
+* Authorized user generally do not need more than 20 seconds to access the result
+
+* The user needs maximum 3 seconds to classify the result.
+* A printable document format is available.
 
 * Notes for proposal:
 ** The Analysis will have a medical purpose. This makes the following steps necessary:
 *** More detailed acceptance criteria will be part of the validation plan and clinical evaluation
 *** Precise definition is therefore made in the corresponding process activities
+
+=== Supported Devices
+* Bittium Faros

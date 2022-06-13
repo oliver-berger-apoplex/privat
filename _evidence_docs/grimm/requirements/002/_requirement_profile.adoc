@@ -9,4 +9,4 @@ include::requirement_properties.adoc[]
 include::requirement_summary.adoc[leveloffset=+1]
 
 == Use Cases
-include::use_cases/uc_*/use_case.adoc[leveloffset=+1]
+include::use_cases_/uc_*/use_case.adoc[leveloffset=+1]

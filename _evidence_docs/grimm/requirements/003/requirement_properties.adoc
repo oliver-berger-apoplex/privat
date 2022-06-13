@@ -2,7 +2,7 @@ include::../../product_properties.adoc[]
 include::../../resources/config/config.adoc[]
 
 :requirement_counter: 3
-:revision: 1
+:revision: 2
 // Does this requirement have a medical purpose?
 // 0 --> No, 1 --> Yes
 :medical-device: 0

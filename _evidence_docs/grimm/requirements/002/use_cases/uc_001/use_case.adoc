@@ -1,14 +1,14 @@
 include::use_case_properties.adoc[]
 == Use Case {use_case_id} ({use_case_name})
 * Personas
-** Recorded and converted ecg data
+** Employee in a private medical practice
+** Desktop PC of the practice
 * Preconditions
-** ecg contains AF episodes
+** ECG data of a patient with AF is recorded and available for analysis
 * Procedure
-** Analyse ecg
-
+** The ECG data is provided for analysis.
 * Expected result
-** AF was correctly detected
+** The employee interprets the visualized analysis result as AF.
 
 ifndef::requirement_proposal[]
 === Risks

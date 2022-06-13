@@ -12,11 +12,13 @@ The contact person accompanies this requirement over the entire life cycle.
 == Description
 
 === What should be improved/solved with the requirement?
-* Customer of apoplex record ecg data
-* To analyse the ecg data, it must be transferred to apoplex
+
+This requirement has been merged with requirement ARC-Req2_X.
+
+*Reasoning*
+
+* The requirement depends on ARC-Req2_X to define use cases and risks that lead to repetition.
+* The proposal includes technical implementation details that provide no value from a domain perspective.
 
 === Value
-* apoplex received ecg data from customer
-* The received data must be uniquely identifiable
-* It must be ensured that the transmitted ecg data can be assigned to a customer and a patient without any patient information
-* It must be ensured that the data received is supported and complete
+* See merged requirement

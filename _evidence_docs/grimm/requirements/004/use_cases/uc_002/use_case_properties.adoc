@@ -1,8 +1,0 @@
-include::../../requirement_properties.adoc[]
-//Reset Use Case counter in every requirement delete this counter in the second and upper Use Case
-:use_case_counter: 1
-
-:use_case_number: {counter:use_case_counter}
-:use_case_name: No AF
-
-:use_case_id: {requirement_id}-Uc{use_case_number}

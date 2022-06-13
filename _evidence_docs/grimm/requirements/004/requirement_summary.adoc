@@ -12,10 +12,13 @@ The contact person accompanies this requirement over the entire life cycle.
 == Description
 
 === What should be improved/solved with the requirement?
-* An authorized user is able to look at consolidation of the important analysis result insights.
-* An authorized user is able to look at a visualization of the analysis raw data.
-* An authorized user is able to look at a printable document format.
+
+This requirement has been merged with requirement ARC-Req2_X.
+
+*Reasoning*
+
+* The requirement depends on ARC-Req2_X to define use cases and risks that lead to repetition.
+* The proposal includes technical implementation details that provide no value from a domain perspective.
 
 === Value
-* The user needs maximum 3 seconds to classify the result.
-* A printable document format is available.
+* See merged requirement

@@ -8,7 +8,8 @@ include::requirement_properties.adoc[]
 include::requirement_summary.adoc[leveloffset=+1]
 
 === Exemplary use case
-include::use_cases/uc_001/use_case.adoc[leveloffset=+2]
+* See merged requirement
+
 == Approval
 
 |===
