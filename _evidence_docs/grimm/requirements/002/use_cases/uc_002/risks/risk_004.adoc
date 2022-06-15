@@ -1,17 +1,16 @@
 include::../use_case_properties.adoc[]
 //remove counter in second and upper risks files in a requirement
-:riskcounter: 0
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
 
 === Hazard
 // Describe the hazard for this use case
-* False positive analysis result
+* Wrong interpretation of the analysis result due to untrained personnel
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* Further treatment due to false positive analysis is performed
+* A patient with AFL is not recognized and will not be treated accordingly
 
 ifndef::requirement_profile[]
 === Assessment

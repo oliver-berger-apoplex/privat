@@ -4,11 +4,11 @@ include::use_case_properties.adoc[]
 ** Employee in a private medical practice
 ** Desktop PC of the practice
 * Preconditions
-** ECG data of a patient with AF (atrial fibrillation) is recorded and available for analysis
+** ECG data of a patient is recorded and available for analysis, however the ecg data is not supported.
 * Procedure
 ** The ECG data is provided for analysis.
 * Expected result
-** The employee interprets the visualized analysis result as AF.
+** The employee interprets the visualized analysis result as a ecg that is not supported and cannot be analysed.
 
 ifndef::requirement_proposal[]
 === Risks

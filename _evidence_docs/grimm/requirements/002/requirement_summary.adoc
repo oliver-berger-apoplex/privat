@@ -41,7 +41,7 @@ The contact person accompanies this requirement over the entire life cycle.
 
 * Notes for proposal:
 ** The Analysis will have a medical purpose. This makes the following steps necessary:
-*** More detailed acceptance criteria will be part of the validation plan and clinical evaluation
+*** More details will be part of the validation plan and clinical evaluation
 *** Precise definition is therefore made in the corresponding process activities
 
 === Supported Devices

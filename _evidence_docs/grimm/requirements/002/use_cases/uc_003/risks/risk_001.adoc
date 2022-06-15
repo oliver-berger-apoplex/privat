@@ -7,11 +7,11 @@ include::../use_case_properties.adoc[]
 
 === Hazard
 // Describe the hazard for this use case
-* False positive analysis result
+* False negative analysis result
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* Further treatment due to false positive analysis is performed
+* Further treatment due to false negative analysis is performed
 
 ifndef::requirement_profile[]
 === Assessment
