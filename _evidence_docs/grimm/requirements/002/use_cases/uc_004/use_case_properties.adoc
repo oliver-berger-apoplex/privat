@@ -1,0 +1,7 @@
+include::../../requirement_properties.adoc[]
+
+
+:use_case_number: 4
+:use_case_name: noise
+
+:use_case_id: {requirement_id}-Uc{use_case_number}

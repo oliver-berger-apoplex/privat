@@ -1,0 +1,6 @@
+include::../../requirement_properties.adoc[]
+
+:use_case_number: 2
+:use_case_name: AFL
+
+:use_case_id: {requirement_id}-Uc{use_case_number}
