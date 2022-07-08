@@ -1,0 +1,16 @@
+:pdf-themesdiri: ../../resource/themes
+include::requirement_properties.adoc[]
+:toc:
+= {documentname}
+:author: PO
+:documentname: G1.01.Validation_plan
+
+== Summary
+* Planning of validation for each requirement
+
+== Verifications
+include::use_cases/uc_*/verification.adoc[leveloffset=+1]
+
+== Validation
+* Validation of the expected result by a medical doctor (e.g. Dr. Neuberger)
+* Validation by comparison of the expected result with the result of the former accepted previous Medical device (SRA)
