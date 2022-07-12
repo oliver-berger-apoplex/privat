@@ -1,1 +1,111 @@
-<Write here the intended use>
+=== Product Overview
+
+Name:
+
+Version:
+
+Basic UDI-DI:
+
+=== Intended medical purpose 
+
+Analysis of ECG data to identify characteristics of AF
+
+=== Target Market
+
+Europe, UK
+                    
+
+=== Patient Population
+
+Age Group: 18+
+
+Gender: Unbiased
+
+Weight: Unbiased
+
+=== User Profile
+
+==== Experts in medical domain 
+
+Physicians, Clinicians, Nurses, Lab technicians, Pharmacists
+
+==== Technical skill/knowledge
+
+No prior skill or knowledge required
+
+==== Training
+
+Familiarization with the software and its usage (Training to be provided by one of the AMT associates)  
+
+==== Language skills
+
+Country specific user language
+
+==== Experience with product type or technology
+
+NA
+
+=== Use Environment Including Software/Hardware
+
+Hospitals, Practices, Home, if possible
+
+==== Physical environment
+
+NA
+
+==== Social environment
+
+NA
+
+==== Technical environment
+
+System to run software
+
+==== Software requirements 
+
+Operation system requirements (incl. version): to be describe later
+
+Browser (type, version): to be describe later
+
+Virtualization: to be describe later
+
+=== Operating Principle
+
+Stand-alone software
+Static AI (Algorithm is frozen, no online learning)
+No measuring function
+No alarm system
+
+==== Input
+
+ECG data from the user
+
+===== Input data specification may include: 
+
+Sensor requirements
+Type of data capturing device
+Precision of data
+Size/quantity of data
+Type and technical parameters of recording procedure
+
+==== Output
+
+Analysis report
+
+=== Data collection point from the body
+
+Depends upon ECG requirements. The data can be collected from hands, wrists, legs, chest. However this point is not applicable for our approach as the data will be provided by the user. 
+
+=== Variant/Accessories
+
+To described later
+
+=== Type of Algorithm used
+
+To be described later
+
+<Für Software sollte in der Zweckbestimmung auch Folgendes beschrieben werden:
+der beabsichtigte medizinische Nutzen (Diagnose, Therapie oder Überwachung
+von Krankheit oder Verletzungen), das physikalische Prinzip (z. B. der zugrunde
+liegende Algorithmus), Nutzungskontext (z. B. Umgebungshelligkeit) und der
+beabsichtigte Anwender (z. B. Alter, Ausbildung).>
