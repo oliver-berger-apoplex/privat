@@ -12,5 +12,57 @@ include::requirement_properties.adoc[]
 include::use_cases/uc_*/verification.adoc[leveloffset=+1]
 
 == Validation
-* Validation of the expected result by a medical doctor (e.g. Dr. Neuberger)
-* Validation by comparison of the expected result with the result of the former accepted previous Medical device (SRA)
+
+=== Validation of the expected result by a User
+* Validation of the value regarding the intended use by the users. They have to run through the usage scenarios in order to prove that they interprete the results correctly and are able to determine whether a further treatment should be taken under consideration. See Usability-Test for more details.
+
+=== Validation by comparison with Benchmark
+* Validation by comparison of the analysis results of the new algorithm (SRA AI) with the result of the former algorithm (SRA), using the Benchmark tests of the so-called IDEAS study.
+** The IDEAS study was carried out by a large cohort of effectively 1043 patients.
+** The original amount of probands was even much higher but there have been several  exclusions because the patients or ecg data did not fulfill the mandatory requirements.
+** In the IDEAS study the SRA-algorithm was compared against the findings of cardiologists using Pathfinder.
+** The result of the IDEAS-Benchmark is by design considered to be 100% correct.
+** The validation is considered to be successfull, if the new algorithm produces the same or better results than the old algorithm. The expected new results should be in the range between the IDEAS-Benchmark and the result of the former algorithm.
+
+|===
+|Value |IDEAS  |SRA |SRA AI
+
+|AF    | 62    |99  | 99 >= n  >= 62
+|No AF | 981   |944 | 981 >= n  >= 944
+|True Positives (TP)
+       | 62   |60 | 62 >= n  >= 60
+|True Negatives (TN)
+       | 981  |942 | 981 >= n  >= 942
+|False Positives (FP)
+| 0 |39| 39 >= n  >= 0
+|False Negatives (FN)
+| 0 |2| 2 >= n  >= 0
+|Sensitivity
+| 100% |96,77%|
+|Specificity
+| 100% |96,02%|
+|Positive Predictive Value (PPV)
+| 100% |60,61%|
+|Negative Predictive Value (NPV)
+| 100% |99,79%|
+|
+|===
+
+ifdef::example-from-Software_als_Medizinprodukt[]
+In the following you can find the content of the corresponding sections from the example of the book.
+
+=== Formative evaluation
+In the formal testing phase, the Innovation Team organises a customer workshop in which several key users run through the usage scenario and give feedback on the software and are asked by the developers about improvements.
+
+=== Validation
+ISO 13485 requires a development validation including a clinical evaluation. The validation is intended to show that we have built the right software (for the intended use).
+
+==== Development iteration reviews
+After each development iteration, the PO reviews the developed functions, sometimes together with a client. Only after acceptance by PO, the related ticket is closed. Together with the documented results of the customer workshops with key users, these results serve as validation evidence. In addition, usability tests and a clinical evaluation are carried out.
+
+==== Usability tests
+The main user function of (SRA-AI) is the detection of arrhythmias (AF and AFL) from ECG data including the calculation of heart rate, heart rate variability and atrial fibrillation load. This corresponds to a risk-related usage scenario, as arrhythmia might not be detected correctly (by the algorithm) and b) the user might misinterpret the results, see risk analysis. In the formal testing phase, the PO organises 2-5 key users to run through the usage scenario. The tests are either conducted at the apoplex premises or the users receive a beta version (marked as such by a large "Not for clinical use" indicator). In addition to the effectiveness of the risk mitigation measures, efficiency measurements (number of clicks and time taken from loading the data to completing the report) are also carried out. Finally, users are given a predefined usability questionnaire (http://attrakdiff.de) and are interviewed by the PO.
+
+==== Clinical Evaluation
+
+endif::example-from-Software_als_Medizinprodukt[]
