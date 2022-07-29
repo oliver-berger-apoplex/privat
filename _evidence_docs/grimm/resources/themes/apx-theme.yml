@@ -1,3 +1,5 @@
+extends:
+  - base
 title-page:
   align: left
   authors:
@@ -49,3 +51,4 @@ footer:
   verso:
     left:
       content: '{page-number} of  {page-count}| {document-title}'
+

@@ -1,0 +1,231 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+= {documentname}
+:author: PO
+:documentname: G1.01.Risk_management_file
+:example-from-Software_als_Medizinprodukt: true
+
+// include::../requirements/*/use_cases/uc_*/risks/risk_*.adoc[]
+
+== Risk management plan
+The General Safety and Performance Requirements (GSPR)  1 - 9 require a risk management system with
+
+* *Risk management plan* according to DIN EN ISO 14971 consisting of 4 steps
+** *Risk analysis*: to identify hazards
+** *Risk assessment*: for the evaluation of risks
+** *Risk control*: the elimination or control of risks
+** *adaptation*: by information from post-market surveillance
+
+Sequence of measures by which risks are controlled by the manufacturer
+
+. Minimise or eliminate risks through safe design
+. Take protective measures (e.g. alarms) .
+. Provide safety information (e.g. warnings) and training.
+
+== Definitions of Terms
+
+* *Risk*: Expression for the combination of probability of occurrence of harm and severity of harm (source: MDR). (German expression:  Risiko)
+* *Safety*: Designation for freedom from risk (source: DIN EN ISO 14971), (German Expression: Sicherheit)
+* *Harm*: Injury or damage to human health or damage to property or the environment. (Source: DIN EN ISO 14971), (German Expression: Schaden)
+* *Hazard*: potential source of harm (source: DIN EN ISO 14971). (German Expression: Gefährdung)
+* *Hazard situation*: Circumstances in which people, goods or the environment are exposed to one or more hazards (source: DIN EN ISO 14971). (German Expression Gefährdungssituation)
+
+Risks arise in general from
+
+* design errors (e.g. software errors)
+* material errors
+* production errors
+* usage errors or effects of the outside world due to lack of compatibility,
+* interoperability
+* IT security.
+
+In the above definition, the probability of the occurrence of damage is considered and not the probability that one of the errors has occurred. As a rule, not one cause alone leads to a hazard (situation), but it is usually a chain of causes. This chain of causes is identified in risk management.
+
+
+=== Responsibility of the top management
+
+The top management defines the risk policy and the criteria for risk acceptance in a risk acceptance matrix. The axes here are.
+
+* Probability of harm occurring
+* Severity of the harm.
+
+include::risk_acceptance_matrix.adoc[leveloffset=+2]
+
+
+== Risk/benefit analysis
+
+
+ifdef::example-from-Software_als_Medizinprodukt[]
+In the following you can find the content of the corresponding sections from the example of the book.
+
+
+
+
+
+include::Hazard_of_SaMD.adoc[leveloffset=+0]
+
+=== Case Study: Initial Risk Analysis
+In a initial Risk analysis the following hazards have been identified
+
+* *wrong treatment due to wrong information*
+If the information presented is incorrect or might be interpreted in a wrong manner, then this could lead to wrong treatment
+
+* *no treatment due to wrong information*
+additionally this could also lead to no treatment, although a therapy would have been indicated.
+
+* The failure of the system is not treated as a hazard, because the investigations are not performed during a critical timeperiod and can be performed later.
+
+The consideration of risks due to a lack of IT security has been newly added with the MDR. Care must be taken to ensure that security measures do not lead to other risks. Example: The protection of patient data through authentication to authorise users must not lead to the responsible doctors not being able to access relevant data in emergency situations.
+
+Possible risk control measures for software are in accordance with the sequence required by MDR and ISO 14971:
+
+==== Inherent safety by design
+Damage caused by the error is completely prevented. On the one hand, this can be achieved through appropriate architectural design (e.g. reliable systems through double design). On the other hand, via measures in the user interface, e.g. a prohibition of actions under certain conditions.
+
+|===
+*Example*: A code number is too high, therefore the software prohibits data storage.
+|===
+
+==== Protective measures:
+With software, there are no protective measures in the actual sense, e.g. protective insulation or an apron against radiation exposure. With software, however, measures are possible in the user interface to warn the user of possible hazards, but not to completely prohibit him from continuing to work.
+
+|===
+*Example*: A code number is too high and the software asks via dialogue whether the user really wants to continue working with the data. The user must actively confirm this.
+|===
+
+==== Warnings:
+Here, attention is drawn to possible hazards either in manuals. Or in the user interface by highlighting information without the user having to actively confirm.
+
+|===
+*Example*: A code number is too high and is displayed flashing in large letters.
+|===
+
+=== Case Study 2 Risk-Meetings
+The innovation-team has performed risk-analysis meeting and  identified the following causes of risks and corresponding measures in the risk meetings (the determination of severity and probability is neglected here):
+
+|===
+| Cause | Measure
+
+|C1 Algorithm does not provide sufficiently accurate contours. Example: unusual shape of the QRS-complex, which is not taken into account in the training data.
+|M1.1: The QRS-complexes are trained.
+
+M1.2 The User can interactively choose a different time-episode fot the printout.
+
+|C2 User confuses the different channels (leads) and is not aware that they belong together.
+|M2.1 The leads are presented in column, one after the other for a specific time period (all leads are in the same coordinate system, with the time axis running from left to right)
+
+
+|===
+
+The defined measures go into the Product Requirements Spec as requirements and are elaborated in detail via software requirements in the Functional Spec.
+
+=== Process of risk management
+
+[[risk_management_flow-image]]
+image::risk_management_flow.svg[title="risk management file consists of the following steps "]
+
+
+==== Risk analysis table
+
+Example how to document the risk analysis in a table during the proceess
+
+[[risk_analysis-table]]
+|===
+|Hazard |cause|S|P|A|Measure for risk control|S|P|A|new risk
+
+.3+| H1
+.2+| cause C1.1
+.2+| 3
+.2+| 3
+.2+| NA
+| measure M1.1.1
+.2+| 2
+.2+| 3
+.2+| A
+.2+| no
+| measure M1.1.2
+
+| cause C1.2
+| 2
+| 2
+| A
+| n.a.
+| 2
+| 2
+| A
+| no
+
+.2+| H2
+| cause C2.1
+| 1
+| 4
+| A
+| n.a.
+| 1
+| 4
+| A
+| no
+
+| cause C2.2
+| 2
+| 4
+| NA
+| measure M2.2.1
+| 2
+| 3
+| A
+| no
+
+|===
+
+|===
+H: Hazard +
+C: Cause +
+S: Severity (S1=negliable, S2=low, S3=heavy, S4=very heavy) +
+P: Probability (P1=theoretically inconceivable, p2=very rare, P3=rare, P4=frequently) +
+A: Assessment (A= Acceptable, NA = Not Acceptable) +
+M: Measure (n.a. no measure necessary, because already situated in the acceptable region) +
+The probabilities, severities and acceptance-regions refer to the risk acceptance matrix in <<risk_acceptance_matrix-image>>
+|===
+
+==== Risk acceptance matrix before
+
+After the assessment of the identified risks according to the severity and probabilty, its number is reflected in the risk acceptance matrix <<ra_matrix_before-image>>. The occurence of risks in the yellow or red region means that they have to be mitigated.
+[[ra_matrix_before-image]]
+image::ra_matrix_before.svg[title="Risk acceptance matrix with number of risks before the application of risk control measures"]
+
+==== Risk acceptance matrix after
+
+After the risk control measures have been applied the risks will move in the risk acceptance area, see <<ra_matrix_after-image>>. The occurence of no risks in the yellow or red region means that the mitigation has been successfull.
+[[ra_matrix_after-image]]
+image::ra_matrix_after.svg[title="Risk acceptance matrix with number of risks before the application of risk control measures"]
+
+
+
+endif::example-from-Software_als_Medizinprodukt[]
+
+== Conclusion
+|===
+|Review of risk management process
+
+|[__] the risk management plan has been appropriately implemented
+
+|[__] the overall residual risk is acceptable
+
+|[__] appropriate methods are in place to obtain relevant production and post-production information.
+|===
+
+== Approval
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R&D
+|
+
+|QM/RA
+|
+|===

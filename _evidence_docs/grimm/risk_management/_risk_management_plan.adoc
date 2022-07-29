@@ -1,0 +1,137 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+:hardbreaks-option:
+:toc:
+:toclevels: 4
+= {documentname}
+:author: PO
+:documentname: G1.03.00.01.Risk_management_plan
+
+== Scope of the risk management plan
+
+This risk management plan is valid for the following product / product group:
+
+|===
+| Article number | Product name and description
+
+|   | {product_id}
+|   |
+
+|===
+
+This Risk Management Plan describes the scope of the overall risk management services and procedures related to the product(s)/product group(s) mentioned above.
+
+The following points are considered as a minimum in the risk analysis:
+
+*	Risks regarding the development,
+*	Application, operation and user errors, related to the product and its accessories,
+*	Risks relating to the infrastructure for the software (if applicable).
+
+The deliberate misuse of the product, its variants and accessories as well as processes not related to the product, its variants and accessories are not included.
+
+=== Cybersecurity risks
+
+Are there any potential cybersecurity risks for the designated product?
+
+* [__] No: no further activities on the topic of cybersecurity
+* [__] Yes: Processing according to AA G1.03.01.00.RXX.D (Cybersecurity plan, risk analysis and report as part of the risk management file)
+
+=== Tasks and responsibilities
+
+|===
+| lifecycle | Tasks  | Responsible
+
+|idea	        |risk management plan 	|PO
+|development	|risk analysis and assessment	|R&D,QM/RA, PM, TS
+|Production	    |Monitoring and risk analysis        	|TS, IT, QM/RA
+|Operation	    |Monitoring 	|TS, IT,
+|Application   	|Post Market Surveillance/PSUR, CAPA, Feedback/Complaints	|PO, TS
+|Decommissioning|PMS, , financial statements Risk management	|PO RA
+
+|===
+
+== Life cycle
+//Description of the planned or expected life cycle of the product / product group.
+
+== Risk Management Team
+//List of staff members represented in the team, description of the role, e.g. team leader, and task.
+
+|===
+| Name | Function  | Tasks
+
+| Kanchan Chauchan     | RA     |  Moderation of risk analysis and assessment,
+preparation of risk management report
+
+| Lukas Oremek      |R&D    | Participation in the assessment team,
+risk control and measures
+| Oliver Berger     |PO      | Risk management plan
+Participation in the assessment team,
+Post Market Surveillance,
+risk control and measures
+risk management file
+|===
+
+In addition to that the stipulations made to implement the product risk management also apply to all employees who are involved in the development of the product as well as in the identification, recording and further processing of risks. In particular these are production/operation, service, sales and QM in addition to PO, R&D and RA.
+
+== Relevant standards and guidelines
+The product-related standards and guidelines relevant for risk management are defined in form G1.01.00.05.RXX.D Development Planning.
+
+== Requirements for the review of risk management activities
+For the duration of the life cycle of the medical device, the risk management activities are re-viewed in the course of the internal audits. This includes in particular the results of the PMS activities and the traceability of the results from these activities.
+
+include::risk_acceptance_matrix.adoc[leveloffset=+1]
+
+include::Hazard_of_SaMD.adoc[leveloffset=+0]
+
+== Procedure for the assessment of the overall residual risk
+
+* All increased risks (yellow and red) that cannot be mitigated further must be subjected to an individual risk-benefit analysis.
+* In addition, an overall risk-benefit analysis must be carried out in which all risks are evaluated in combination against the benefits of the product.
+* The result must be documented with justification in the risk management report.
+* Users shall be informed or trained of a possible residual risk in the instructions for use.
+
+== Activities of verification and implementation of measures
+All risk control measures resulting from the assessment are reviewed and approved by the person(s) responsible for risk control (see Risk Management Team). This is documented in the risk assessment.
+
+==	Activities related to the collection and verification of relevant information from the manufacturing and post-manufacturing stages
+
+* Product monitoring is carried out as part of the Post Market Surveillance (PMS) process.
+* This process ensures that the feedback collected is reviewed by those responsible to see if the results of PMS monitoring lead to changes in the risk management file.
+
+== Appendix
+
+=== Applicable documents
+
+|===
+|Document ID |Title
+
+|G1.03.00.xx
+| Risk management
+|===
+
+=== Approval
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R & D
+|
+
+|RA
+|
+|===
+
+=== Revision history Product-specific risk management plan
+
+|===
+|Revision |Date |Author|Brief description of the change
+
+|
+|
+|
+|
+
+|===
