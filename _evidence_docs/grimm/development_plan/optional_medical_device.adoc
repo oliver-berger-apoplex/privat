@@ -75,8 +75,8 @@ MDSW  that  is  intended  to  monitor  physiological  processes  will,  under  m
 
 11c: (Paragraph 5 of Rule 11) all other uses and implies that all other MDSW is classified as class I. 
 
-image::Classification rule 1.png[]
-image::Classification rule 2.png[]
+image::../diagramms/classification_rule_1.png[title="Classification Rule 9, 22 and 10"]
+image::../diagramms/classification_rule_2.png[[title="Classification Rule 11, 12 and 13"]]
 
 
 *_Since the intended purpose of ARC is to analyse the ECG data and provide information that will be used by the medical professionals to take decisions, therefore as per MDR, Annex VIII, rule 11, ARC is classified as Class IIa medical device._* 
