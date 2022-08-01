@@ -47,7 +47,7 @@ Risks arise in general from
 In the above definition, the probability of the occurrence of damage is considered and not the probability that one of the errors has occurred. As a rule, not one cause alone leads to a hazard (situation), but it is usually a chain of causes. This chain of causes is identified in risk management.
 
 === Risk management activities
-In order to be compliant with the norm the following tasks are considered as risk-management activities
+In order to be compliant with the norm the following tasks are considered as risk-management activities (for a reference see also the Flow-chart in G1.03.00.00 Risk-Management)
 
 * risk management plan
 * risk analysis regarding the requirements (functional)
@@ -119,6 +119,11 @@ For the duration of the life cycle of the medical device, the risk management ac
 * In addition, an overall risk-benefit analysis must be carried out in which all risks are evaluated in combination against the benefits of the product.
 * The result must be documented with justification in the risk management report.
 * Users shall be informed or trained of a possible residual risk in the instructions for use.
+
+The method for assessing the overall residual risk includes:
+
+* the collection and review of data and literature on the medical device under consideration and similar marketed medical devices,
+* assessment by a cross-functional expert group with application knowledge and clinical expertise.
 
 == Activities of verification and implementation of measures
 All risk control measures resulting from the assessment are reviewed and approved by the person(s) responsible for risk control (see Risk Management Team). This is documented in the risk assessment.
