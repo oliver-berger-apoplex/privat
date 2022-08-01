@@ -4,6 +4,7 @@ include::requirement_properties.adoc[]
 = {documentname}
 :author: PO
 :documentname: G1.01.Validation_plan
+:example-from-Software_als_Medizinprodukt: true
 
 == Summary
 * Planning of validation for each requirement
@@ -49,6 +50,7 @@ include::use_cases/uc_*/verification.adoc[leveloffset=+1]
 |===
 
 ifdef::example-from-Software_als_Medizinprodukt[]
+== Example from Software as MD
 In the following you can find the content of the corresponding sections from the example of the book.
 
 === Formative evaluation

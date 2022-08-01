@@ -8,6 +8,7 @@
 :source-highlighter: rouge
 // disable table caption and numeration
 :table-caption!:
+:xrefstyle: short
 
 // Template specific parameters
 :templateversion: 6
