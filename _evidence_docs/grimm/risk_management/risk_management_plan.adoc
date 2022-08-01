@@ -1,0 +1,145 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+:hardbreaks-option:
+:toc:
+:toclevels: 4
+= {documentname}
+:author: PO
+:documentname: G1.03.00.01.Risk_management_plan
+
+== Meta Information
+
+include::../product_summary.adoc[leveloffset=+1]
+
+== Scope of the risk management plan
+
+
+This Risk Management Plan describes the risk management activities and procedures related to the product:{product_id}
+
+
+=== Risk management system
+The General Safety and Performance Requirements (GSPR)  1 - 9 require a risk management system with
+
+* *Risk management plan* according to DIN EN ISO 14971 consisting of 4 steps
+** *Risk analysis*: to identify hazards
+** *Risk assessment*: for the evaluation of risks
+** *Risk control*: the elimination or control of risks
+** *adaptation*: by information from post-market surveillance
+
+
+=== Definitions of Terms
+
+* *Risk*: Expression for the combination of probability of occurrence of harm and severity of harm (source: MDR). (German expression:  Risiko)
+* *Safety*: Designation for freedom from risk (source: DIN EN ISO 14971), (German Expression: Sicherheit)
+* *Harm*: Injury or damage to human health or damage to property or the environment. (Source: DIN EN ISO 14971), (German Expression: Schaden)
+* *Hazard*: potential source of harm (source: DIN EN ISO 14971). (German Expression: Gefährdung)
+* *Hazard situation*: Circumstances in which people, goods or the environment are exposed to one or more hazards (source: DIN EN ISO 14971). (German Expression Gefährdungssituation)
+
+Risks arise in general from
+
+* design errors (e.g. software errors)
+* material errors
+* production errors
+* usage errors or effects of the outside world due to lack of compatibility,
+* interoperability
+* IT security.
+
+In the above definition, the probability of the occurrence of damage is considered and not the probability that one of the errors has occurred. As a rule, not one cause alone leads to a hazard (situation), but it is usually a chain of causes. This chain of causes is identified in risk management.
+
+=== Risk management activities
+In order to be compliant with the norm the following tasks are considered as risk-management activities
+
+* risk management plan
+* risk analysis regarding the requirements (functional)
+* risk analysis regarding the specification (technical)
+* risk analysis regarding the security (cyber security)
+* risk assessment
+* risk control
+* risk management report
+
+
+
+== Tasks and responsibilities
+
+In the distinct phases of the lifecycle the following tasks have to be performed
+
+|===
+| Phase of lifecycle | Tasks  | Responsible
+
+|idea	|risk management plan 	|PO
+|development	|risk analysis and assessment	|R&D
+|market launch	|Monitoring and risk analysis	|PO
+|market surveilance	|Post Market Surveillance/PSUR, CAPA, Feedback/Complaints	|PO
+|decommissioning	|PMS, Risk management	|PO
+
+|===
+
+
+== Risk Management Team
+
+The persons required to release the risk management file are specified in the following table
+
+|===
+| Name | Function  | Tasks
+
+| Kanchan Chauchan     | RA     |  Moderation of risk analysis and assessment,
+ preparation of risk management report
+
+| Lukas Oremek      |R&D    | Participation in the assessment team,
+risk control and measures
+| Oliver Berger     |PO      | Risk management plan
+                       Participation in the assessment team,
+                  Post Market Surveillance,
+                  risk control and measures
+risk management file
+|===
+
+In addition to that the stipulations made to implement the product risk management also apply to all employees who are involved in the development of the product as well as in the identification, recording and further processing of risks. In particular these are production/operation, service, sales and QM in addition to PO, R&D and RA.
+
+
+include::risk_acceptance_matrix.adoc[leveloffset=+1]
+
+include::Hazard_of_SaMD.adoc[leveloffset=+0]
+
+=== Sequence of measures.
+Sequence of measures by which risks are controlled by the manufacturer
+
+. Minimise or eliminate risks through safe design
+. Take protective measures (e.g. alarms) .
+. Provide safety information (e.g. warnings) and training.
+
+== Requirements for the review of risk management activities
+
+For the duration of the life cycle of the medical device, the risk management activities are reviewed in the course of the internal audits. This includes in particular the results of the PMS activities and the traceability of the results from these activities.
+
+
+== Procedure for the assessment of the overall residual risk
+
+* All increased risks (yellow and red) that cannot be mitigated further must be subjected to an individual risk-benefit analysis.
+* In addition, an overall risk-benefit analysis must be carried out in which all risks are evaluated in combination against the benefits of the product.
+* The result must be documented with justification in the risk management report.
+* Users shall be informed or trained of a possible residual risk in the instructions for use.
+
+== Activities of verification and implementation of measures
+All risk control measures resulting from the assessment are reviewed and approved by the person(s) responsible for risk control (see Risk Management Team). This is documented in the risk assessment.
+
+==	Activities of verification from the manufacturing and post-manufacturing stages
+
+* Product monitoring is carried out as part of the Post Market Surveillance (PMS) process.
+* This process ensures that the feedback collected is reviewed by those responsible to see if the results of PMS monitoring lead to changes in the risk management file.
+
+== Approval
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R & D
+|
+
+|RA
+|
+|===
+
