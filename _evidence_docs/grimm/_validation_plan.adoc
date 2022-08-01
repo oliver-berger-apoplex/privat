@@ -1,0 +1,65 @@
+:pdf-themesdir: resources/themes
+include::product_properties.adoc[]
+:toc:
+= {documentname}
+:author: PO
+:documentname: G1.01.Validation_Plan
+//Use the flag: requirement-proposal reason: Do not include risks and verification of a Use_case
+//The requirements differ in the following aspects:
+// the requirement/Use-Case has a medical use which gets reflected/displayed by an UI-element. These are the Use-cases which have to be validated by validation of UI. (e.g analysis-result) according to IEC 62366
+//Requirements and Use-cases without clinical use. (e.g. Invoicing) Even if there is a UI, thiese requirements have not to be validated according to IEC-62366 because there is no associated risk
+// requirements with a clinical use but without a UI-Elements (e.g. AI-algorithm). They have to be validated by the clinical evaluation. By proving that the results reflect the current state of knowledge (science and technology)
+:requirement_proposal:
+:moderator: Jeff Moderator
+
+== Meta Information
+
+include::product_summary.adoc[leveloffset=+1]
+
+=== Intention of this document
+This document describes the validation plannning. There are two different approaches to prove that we built the right software:
+
+1. usability evaluation for all requirements and use cases therein with a medical use, that have UI elements (e.g analysis-result). These are the use-cases which have to be validated by validation of UI  according to IEC 62366
+2. clinical evaluation: requirements with a clinical use but without a UI-Elements (e.g. AI-algorithm). They have to be validated by the clinical evaluation. By proving that the results reflect the current state of knowledge (science and technology)
+
+All other requirements and use-cases without clinical use. (e.g. Invoicing). Even if there is a UI, these requirements have not to be validated according to IEC-62366 because there is no associated risk or harm for the patient.
+
+=== Relevant documents
+
+|===
+|No |Document |Relationship
+
+| 1
+| Usability_Evaluation_Plan
+| child
+
+| 2
+| Clinical_Evaluation_Plan
+| child
+|===
+
+
+
+//== Clinical Evaluation
+include::usability_evaluation_plan.adoc[leveloffset=+1]
+
+//== Clinical Evaluation
+include::clinical_evaluation_plan.adoc[leveloffset=+1]
+
+:leveloffset: 0
+
+
+== Approval
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R&D
+|
+
+|RA
+|
+|===

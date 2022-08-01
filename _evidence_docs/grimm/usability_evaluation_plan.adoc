@@ -1,0 +1,361 @@
+:pdf-themesdir: resources/themes
+include::product_properties.adoc[]
+:toc:
+= {documentname}
+:author: PO
+:documentname: Usability_Evaluation_Plan
+//Use the flag: requirement-proposal reason: Do not include risks and verification of a Use_case
+//The requirements differ in the following aspects:
+// the requirement/Use-Case has a medical use which gets reflected/displayed by an UI-element. These are the Use-cases which have to be validated by validation of UI. (e.g analysis-result) according to IEC 62366
+//Requirements and Use-cases without clinical use. (e.g. Invoicing) Even if there is a UI, thiese requirements have not to be validated according to IEC-62366 because there is no associated risk
+// requirements with a clinical use but without a UI-Elements (e.g. AI-algorithm). They have to be validated by the clinical evaluation. By proving that the results reflect the current state of knowledge (science and technology)
+:requirement_proposal:
+:moderator: Jeff Moderator
+
+= Usability Evaluation Plan
+
+
+== Meta Information
+
+
+=== Intention of this document
+
+
+The objectives of this document for usability evaluation are:
+
+* To enable a planned and effective execution of the usability evaluation activities.
+* To define the types of usability evaluation activities to be conducted.
+* To define a schedule for the usability evaluation.
+* To identify potential use errors.
+* To identify any areas of confusion during use.
+* To evaluate the effectiveness, efficiency and user satisfaction with which the user interface of the device can be used in the intended environment by the intended users.
+* To achieve conformity with:
+**	IEC 62366-1 Technical Corrigendum 1:2016
+**	FDA Guidance: Applying Human Factors and Usability Engineering to Medical Devices.
+//This Guidance deals with use-related hazards which might result from aspects of the user interface design that cause the user to fail to adequately or correctly perceive, read, interpret, understand or act on information from the device.
+
+=== Relevant documents
+
+|===
+|No |Document |Relationship
+
+|
+|
+|
+
+|===
+
+== Overview of Formative and Summative Usability Evaluations
+
+=== Formative Evaluation
+//Formative evaluations are used to inform device user interface design while it is in development.
+
+==== Time line
+
+|===
+|  |Method |Date
+
+| Formative Evaluation 1
+|
+|
+
+| Formative Evaluation 2
+|
+|
+
+| Formative Evaluation ...
+|
+|
+
+|===
+
+==== Aspects
+* Participants: Can be defined depending on the method applied and the goal of the formative evaluation.
+* Number of participants: Can be defined individually depending on the method and the goal of the formative evaluation.
+* Environment: Depending on the UE method applied the room / environment will be selected.
+
+=== Summative Evaluation
+
+==== Time line
+
+|===
+|  |Method |Date
+
+| Summative Evaluation
+| Usability Test
+|
+
+|===
+
+==== Aspects
+* Participants: Relevant user groups will be integrated in the summative evaluation.
+* Number of participants: Involved participants per user group = 2 - 5
+* Test environment: E.g.: The test will be performed in a usability lab. No patient will be treated. Use conditions as well as environment conditions will be simulated as much as required.
+
+== Formative Usability Evaluations
+
+//Depending on the complexity of the medical device the number of formative usability evaluations can vary. Consider at least 2-3 formative evaluations. Formative evaluations can be very small-scale and informal compared to a summative evaluation. They tend to grow larger and more formal as a design evolves from an early concept to a production-equivalent prototype. The last formative evaluation can match the summative evaluation methodology and can be used as a pre-summative evaluation.
+
+* Heuristic analyses
+* Cognitive walkthroughs
+* Usability tests
+
+=== Formative evaluation 1: Heuristic evaluation
+==== Method, rationale and objectives
+*Heuristic evaluation*
+
+This method is considered appropriate to achieve the following objectives:
+
+•	to get early feedback during development from usability experts,
+•	to implement improvements early during development,
+•	to identify potential use problems before the usability test..
+•	...
+
+==== Developmental stage and parts of the user interface in focus of the evaluation
+
+Give a brief description of the developmental stage of the user interface and of the parts to be evaluated. In the focus of the formative evaluation are the user interface elements which are newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts.
+
+==== Procedure and evaluation design
+// Describe the procedure of the heuristic evaluation here. E.g.:
+
+One or more inspectors (usability experts) independently evaluate the usability of the user interface against heuristics based on following guidelines (but not limited to):
+
+•	ISO 9241-110:2008 (principles for interaction between a user and a system that are formulated in general terms (i.e. independent of situations of use, application, environment or technology)
+•	ISO 9241-112:2017 ( establishes ergonomic design principles for interactive systems related to the software-controlled presentation of information by user )
+•	ISO 9241-171:2008 (provides ergonomics guidance and specifications for the design of accessible software for use at work, in the home, in education and in public places)
+•	ISO 9241-125:2017 (provides guidance for the visual presentation of information controlled by software, irrespective of the device)
+
+Additionally, the inspectors evaluate the user interface with their personal expertise and know-how they have gained from their practical experience, from literature, from style guides, from user feedback, from congresses and from other sources.
+
+==== Acceptance criteria (optional)
+//(Optional) )List acceptance criteria, if any, here. E.g.:
+
+The user interface should be generally conform with the following guidelines (but not limited to):
+
+•	ISO 9241-110:2008
+•	ISO 9241-112:2017
+•	ISO 9241-171:2008
+•	ISO 9241-125:2017
+
+
+Additionally, the inspectors perform a heuristic evaluation of the user interface with their personal expertise and know-how they have gained from their practical experience, from literature, from style guides, from user feedback, from congresses and from other sources.
+
+==== Documentation and analysis
+//Describe here how the evaluation is documented and analyzed. E.g.:
+
+The inspectors independently document their results including heuristics which were violated, potential use problems, as well as probable use errors.
+
+The inspectors consolidate their results and develop improvement suggestions in a summary report.
+
+=== Formative evaluation 2: Cognitive walkthrough
+==== Method, rationale and objectives
+*Cognitive Walkthrough*
+
+This method is considered appropriate to achieve the following objectives:
+
+•	to get early feedback during development from domain experts and/or intended users guided by usability experts,
+•	to implement improvements early during development,
+•	to identify potential use problems before the usability test.
+
+==== Developmental stage and parts of the user interface in focus of the evaluation
+
+Give a brief description of the developmental stage of the user interface and of the parts to be evaluated. In the focus of the formative evaluation are the user interface elements which are newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts.
+
+==== Procedure and evaluation design
+
+Usability experts go with domain experts and/or intended user through the user interface and have the participants interpret what they see (e.g. printouts, digital images, slide presentations, low-, and high fidelity prototypes) and let them describe what actions they take or would take.
+
+//Describe here the procedure of the cognitive walkthrough and what tasks the participants shall perform or what questions you want to address.
+
+==== Acceptance criteria (optional)
+
+(Optional) List acceptance criteria, if any, here. E.g. the completion of a defined tasks or the correct answers to questions may serve acceptance criteria.
+
+==== Documentation and analysis
+//Describe here how the evaluation is documented and analyzed. E.g.:
+
+Documentation: pen and paper, forms, cameras, microphones, screen captures, …
+
+Analysis: A report considering all use errors and problems including the root causes will be written.
+
+=== Formative evaluation 3: Usability test
+==== Method, rationale and objectives
+*Formative Usability Test*
+
+This method is considered appropriate to achieve the following objectives:
+
+•	to get early feedback during development from the intended users in a realistic use environment,
+•	to identify potential use difficulties, problems, and errors early and throughout development,
+•	to implement improvements early during development.
+
+==== Developmental stage and parts of the user interface in focus of the evaluation
+
+Give a brief description of the developmental stage of the user interface and of the parts to be evaluated. In the focus of the formative evaluation are the user interface elements which are newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts.
+
+==== Selection of use scenarios
+
+//Describe which use scenarios are to be considered in the usability test
+
+include::requirements/*/use_cases/uc_*/use_case.adoc[leveloffset=+3]
+
+==== User groups and training
+
+Describe which user groups are to be considered in the usability test and if and which training they shall receive.
+
+==== Number of test participants
+
+Specify how many participants shall take part in the test.
+
+==== Length of each test session
+
+Specify how long each session of the usability test shall take.
+
+==== Moderator
+The test session will be moderated by the following person: {moderator}
+
+==== Location
+The usability test will take place <location>.
+The location ensures that the below attributes can be simulated.
+
+==== Test environment / Conditions of use
+//The test should be conducted in a test environment that shows the main characteristics of the real use environment, e.g. noise level, ambient light level, operators position, etc.
+
+This Product is intended for use in <insert the environment>. The following table outlines a point-by-point comparison of the use environment and the simulated use environment.
+
+|===
+|Environmental attribute |Typical environment the product is used in |Potential use-related effects |Environment in formative evaluation necessary to represent environment of use
+
+|E.g.: Ambient sound
+|Street, ambulance siren   noises.
+|Stress, reduced hearing   ability
+|Siren noises must be simulated
+
+|E.g.: Typical equipment used   (in conjunction with the medical device)
+|Patient room, laboratory   gloves
+|Operability of the touch   display
+|Participant must perform test   with gloves on
+|===
+
+==== Accompanying documentation
+//Specify if and which accompanying documentation is part of the usability test.
+
+==== Acceptance criteria
+//List acceptance criteria for each test scenario (test task) here or reference to another document (E.g. “Usability Test Protocol”).
+E.g.:The completion of a respective task serves as an acceptance criterion. For details see document XX...
+
+==== Test protocols
+A test protocol should be developed that addresses the following topics if applicable:
+
+•	Evaluated product
+•	Test environment and other use conditions
+•	Accompanying documentation to be provided during the usability test
+•	The training to be provided during the usability test
+•	Briefing that will be given to each test participants before the test tasks start.
+•	List of Pre-session interview questions which should be asked before the actual test session starts
+•	Test scenarios (test tasks) and corresponding acceptance criteria
+•	Debriefing / List of post-session interview questions
+
+//If test protocols already exist or will be written, reference them here.
+
+The following test protocols apply for this summative usability test:
+
+==== Documentation and analysis
+//Describe how the formative usability test will be documented and analyzed here. E.g.:
+
+The tests are audio and video recorded. Additionally, the moderator, notetaker and other observers note their observations during the test. Observations comprise use errors, close calls and any other observations of interest. The notes of the moderator, notetaker and the observers will be consolidated and documented in the report. Points in question are checked on the basis of the recordings.
+Each observed use error and close call is analyzed for its impact in terms of
+
+•	Could the occurred use error (close call) lead to a hazardous situation?
+•	Could the hazardous situation have led to intolerable harm for user, patient or other humans in the social environment of the product?
+•	What was the root cause of the use error?
+
+Results of the formative evaluation will be analyzed qualitatively according to ISO 14971 to determine whether the medical device has been found to be safe and effective for the intended users and use environments or whether the design of the medical device needs to be modified to reduce the use-related risks to acceptable levels.
+
+A report should at a minimum address the following topics:
+
+•	Management summary
+•	Summary of test results and conclusion
+•	Actual test participant user profiles
+•	Data collection and findings including
+•	Answers to pre- and post-session interview questions
+•	Results of the test tasks
+•	Deviations from pass/fail criteria
+•	Use-related problems identified
+•	Root cause
+
+== Summative Usability Evaluation
+
+//Summative evaluation is used to confirm the safety of the user interface and is frequently a part of the design validation activities in the development of a medical device.
+
+//Summative evaluation generally involves performing a usability test under conditions of simulated use.
+
+//For some medical devices, it can be difficult to conduct a usability test because it is not practicable to simulate the use and it is unethical to conduct a usability test in actual use. In these cases, it can be justifiable to use other evaluation methods.
+
+//For example: Expert and highly experienced cardiac surgeons can perform an expert review of a very specialized cardiac surgical instrument where an empirical performance based summative evaluation by usability test of heart surgery success cannot be practically simulated.
+
+//Additionally, expert reviews can be considered when the scope of the summative evaluation is limited to minor changes to the user interface that do not involve hazard-related use scenarios associated with serious harm or in the case where the medical device has no hazard-related use scenarios.
+
+//If a manufacturer has developed an updated version of a pre-existing medical device, the summative evaluation can focus on confirming the adequacy of the user interface's new portion and/or modifications, presuming that the balance of the user interface was previously evaluated by means of a summative evaluation. This is sometimes referred to as a ‘bridging study’. However, if the previous medical device version did not undergo a summative evaluation, the manufacturer should conduct a comprehensive summative evaluation to confirm the adequacy of the entire user interface. Older portions of the user interface are not "grandfathered" as far as usability testing is concerned, regardless of whether the original medical devices has an exemplary use history. It is considered usability of unknown provenance and is evaluated according to annex C of IEC 62366-1:2015.
+
+=== Method, rationale and objectives
+The method planned for the summative usability evaluation is a usability test, where representative users use the product within pre-defined test scenarios without the help of an instructor. A facilitator hands over each of the test tasks to the participants and observes the task completion for
+
+•	use errors,
+•	close calls.
+
+Each observed use error and close call is analyzed for its impact in terms of
+
+•	Did the occurred use error lead to a hazardous situation?
+•	Could the hazardous situation have led to intolerable harm for user, patient or other humans in the social environment of the product?
+
+This method is considered appropriate to produce an objective evidence that the user interface is safe.
+
+=== Parts of the user interface in focus of the evaluation
+//Give a brief description of the user interface parts to be evaluated. In the focus of the summative evaluation are the user interface elements which are hazard-related and newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts. Accompanying documentation such as the Instructions For Use or box labelling is also part of the user interface and therefore must be regarded in summative usability tests.
+
+=== Selection of use scenarios
+//List use scenarios which shall be included in usability test here.
+
+//All hazard-related use scenarios and critical tasks must be included in the summative usability evaluation. Non hazard-related use scenarios may also be included. use scenarios which contain a validation-section will be included:
+
+include::requirements/*/use_cases/uc_*/validation.adoc[leveloffset=+2]
+
+=== Test protocols
+
+A test protocol should be developed that addresses the following topics if applicable:
+
+•	Evaluated product
+•	Test environment and other use conditions
+•	Accompanying documentation to be provided during the usability test
+•	The training to be provided during the usability test
+•	Briefing that will be given to each test participants before the test tasks start.
+•	List of Pre-session interview questions which should be asked before the actual test session starts
+•	Test scenarios (test tasks) and corresponding acceptance criteria
+•	Debriefing / List of post-session interview questions
+
+//If test protocols already exist or will be written, reference them here.
+The following test protocols apply for this summative usability test:
+
+=== Documentation and analysis
+//Describe how the summative usability test will be documented and analyzed here. E.g.:
+
+The tests are audio and video recorded. Additionally, the moderator, notetaker and other observers note their observations during the test. Observations comprise use errors, close calls and any other observations of interest. The notes of the moderator, notetaker and the observers will be consolidated and documented in the report. Points in question are checked on the basis of the recordings.
+Each observed use error is analyzed for its impact in terms of
+
+•	Could the occurred use error lead to a hazardous situation?
+•	Could the hazardous situation have led to intolerable harm for user, patient or other humans in the social environment of the product?
+•	What was the root cause of the use error?
+
+Results of the summative evaluation will be analyzed qualitatively according to ISO 14971 to determine whether the medical device has been found to be safe and effective for the intended users and use environments or whether the design of the medical device needs to be modified to reduce the use-related risks to acceptable levels.
+
+A report should at a minimum address the following topics:
+
+•	Executive summary
+•	Summary of test results and conclusion
+•	Actual test participant user profiles
+•	Data collection and findings including
+•	Answers to pre- and post-session interview questions
+•	Results of the test tasks
+•	Deviations from pass/fail criteria
+•	Use-related problems identified
+•	Root cause
