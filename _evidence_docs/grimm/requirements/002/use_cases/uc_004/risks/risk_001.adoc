@@ -15,12 +15,18 @@ include::../use_case_properties.adoc[]
 * Wrong treatment due to wrong analysis is performed.
 
 ifndef::requirement_profile[]
+ifndef::risk_analysis[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
-* Severity: 4
-* Probability: 1
-* Risk Potential: 4 i.e Acceptable
+|===
+| Severity |Probability | Risk Potential:
 
+| 4 | 1|  4 i.e. Acceptable
+|===
+
+
+
+ifndef::risk_assessment[]
 === Risk control
 
 ==== Measures
@@ -30,7 +36,15 @@ ifndef::requirement_profile[]
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+|===
+| Severity |Probability | Risk Potential:
+
+| 4| 1|  4 i.e. Acceptable
+|===
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks
+no new risks because of the measures
+endif::[]
+endif::[]
 endif::[]

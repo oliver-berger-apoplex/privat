@@ -1,4 +1,5 @@
 include::product_properties.adoc[]
+:toc:
 
 = Clinical Evaluation Plan (CEP)
 
@@ -6,7 +7,7 @@ include::product_properties.adoc[]
 
 The primary purpose of this CEP is to serve as a guiding material for the clinical evaluation of {product_id}. The clinical evaluation will scrutinize the clinical safety and performance of {product_id}, which is a Class IIa SaMD being developed and provided by apoplex medical technologies GmbH. The clinical evaluation of medical devices is a systematic and a planned investigation or study that demonstrates the safety and performance of the medical device in clinical use by contributing continuous generation, collection, analysis, and evaluation of clinical data. It is an important part in the conformity assessment process to obtained CE marking. As outlined in Article 61 and Annex XIV of MDR, SaMD’s clinical performance and safety assessment is based on the evaluation of relevant clinical data and is mandatory for all medical device classes. The clinical evaluation and the clinical data used are intended to investigate whether the clinical safety and performance of the {product_id} software are met.
 
-According to MEDDEV 2.7/1 rev. 4, the clinical evaluation process includes five stages to evaluate the safety data and performance of the SaMD. These are (Figure 1):
+According to MEDDEV 2.7/1 rev. 4, the clinical evaluation process includes five stages to evaluate the safety data and performance of the SaMD. These are depicted in <<clinical_evaluation_stages-image>>:
 
 *Stage 0: Planning/Scope* – scope (objective and structure) of the clinical evaluation/preparation of CEP, product classification, intended use
 
@@ -18,9 +19,10 @@ According to MEDDEV 2.7/1 rev. 4, the clinical evaluation process includes five 
 
 *Stage 4: Documentation* – generation of clinical evaluation report
 
+[[clinical_evaluation_stages-image]]
 image::diagramms/clinical_evaluation_stages.jpg[title="Stages of Clinical evaluation"]
 
-
+[[generation_of_clinical_evidence-image]]
 image::diagramms/generation_of_clinical_evidence.jpg[title="Methodological principle of generation of clinical evidence"]
 
 

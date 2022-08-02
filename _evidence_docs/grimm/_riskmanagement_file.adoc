@@ -1,15 +1,23 @@
 :pdf-themesdir: resources/themes
 include::product_properties.adoc[]
+:hardbreaks-option:
 = {documentname}
-:author: Head of R&D
+:toc:
+:author: PO
 :documentname: G1.01.Risk_management_file
 
-== Individual Risk Analysis
+== Scope
 
-include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[leveloffset=+1]
+|===
+2+|The Risk Management file consists of the following documents
 
+|G1.03.00.01| risk management plan
+|G1.03.00.02| risk analysis
+|G1.03.00.03| risk assessment
+|G1.03.00.04| risk control (including risk-benefit analysis and overall risk-benefit analysis)
+|G1.03.00.05| risk management report
+|===
 
-== Risk/benefit analysis
 
 == Conclusion
 |===

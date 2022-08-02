@@ -1,0 +1,70 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+:hardbreaks-option:
+:toc:
+:toclevels: 4
+= {documentname}
+:author: PO
+:documentname: G1.03.00.04.Risk_control
+:risk_control:
+
+== Scope of the risk control
+
+According to the risk management process this document contains all risks including the risk control activities including the measures, the assessment of residual risk and the evaluation if new risks were generated through applying the measures.
+
+== Product information
+include::../product_summary.adoc[leveloffset=+1]
+
+== General information
+
+=== Persons involved in the risk control
+
+//Table with Name and Function? or Role and function?
+|===
+|Name | Function
+
+| Oliver Berger  | PO
+|   |
+
+|===
+
+
+
+=== Applying measures and  assessment
+
+
+include::../requirements/*/use_cases/uc_*/risks/risk_*.adoc[leveloffset=+2]
+
+
+== Risks that became known through market observation, complaints or incidents
+// Summary description of data from customer complaints and PMS
+
+== Appendix
+
+=== Applicable documents and forms
+
+|===
+|Document ID |Title
+
+|G1.03.00.01
+| Risk management plan
+
+|G1.03.00.03
+| Risk assessment
+|===
+
+=== Release of the risk control
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R & D
+|
+
+|QM/RA
+|
+|===
+

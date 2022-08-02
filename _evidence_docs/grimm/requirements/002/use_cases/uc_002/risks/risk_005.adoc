@@ -4,8 +4,6 @@ include::../use_case_properties.adoc[]
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
 
-=== Hazard
-// Describe the hazard for this use case
 * Wrong interpretation of the analysis result due to misleading presentation or unreadable analysis result
 
 === Hazard
@@ -17,9 +15,16 @@ include::../use_case_properties.adoc[]
 * No treatment due to false negative analysis is performed, although a therapy would have been indicated
 
 ifndef::requirement_profile[]
+ifndef::risk_analysis[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+|===
+| Severity |Probability | Risk Potential:
 
+| | |
+|===
+
+ifndef::risk_assessment[]
 === Risk control
 
 ==== Measures
@@ -29,7 +34,15 @@ ifndef::requirement_profile[]
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+|===
+| Severity |Probability | Risk Potential:
 
+| | |
+|===
+* The medical use of the medical device outweighs the risk.
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks
+no new risks because of the measures
+endif::[]
+endif::[]
 endif::[]

@@ -1,4 +1,4 @@
-:pdf-themesdir: ../../resources/themes
+ :pdf-themesdir: ../../resources/themes
 include::requirement_properties.adoc[]
 = {documentname}
 :author: Head of R&D

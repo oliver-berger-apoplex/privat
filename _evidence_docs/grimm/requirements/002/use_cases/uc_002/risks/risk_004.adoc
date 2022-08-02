@@ -14,12 +14,17 @@ include::../use_case_properties.adoc[]
 * No treatment due to false negative analysis is performed, although a therapy would have been indicated according to other risk factors (e.g CHA2DS2-Vasc-Score)
 
 ifndef::requirement_profile[]
+ifndef::risk_analysis[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
-* Severity: 4
-* Probability: 2
-* Risk Potential: 8 i.e Not Acceptable
 
+|===
+| Severity |Probability | Risk Potential:
+
+| 4| 2 | 8 i.e Not Acceptable
+|===
+
+ifndef::risk_assessment[]
 === Risk control
 
 ==== Measures
@@ -29,8 +34,16 @@ ifndef::requirement_profile[]
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+|===
+| Severity |Probability | Risk Potential:
+
+| 4| 2|  8 i.e Not Acceptable
+|===
 * The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks
+no new risks because of the measures
+endif::[]
+endif::[]
 endif::[]

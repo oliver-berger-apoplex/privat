@@ -1,0 +1,70 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+:hardbreaks-option:
+:toc:
+:toclevels: 4
+= {documentname}
+:author: PO
+:documentname: G1.03.00.03.Risk_assessment
+:risk_assessment:
+
+== Scope of the risk assessment
+
+According to the risk management process this document contains all risks including the assessment according to the functional requirements.
+
+== Product information
+include::../product_summary.adoc[leveloffset=+1]
+
+== General information
+
+=== Persons involved in the risk assessment
+
+//Table with Name and Function? or Role and function?
+|===
+|Name | Function
+
+| Oliver Berger  | PO
+|   |
+
+|===
+
+
+
+=== Identification of hazards and hazardous situations
+
+
+include::../requirements/*/use_cases/uc_*/risks/risk_*.adoc[leveloffset=+2]
+
+
+== Risks that became known through market observation, complaints or incidents
+// Summary description of data from customer complaints and PMS
+
+== Appendix
+
+=== Applicable documents and forms
+
+|===
+|Document ID |Title
+
+|G1.03.00.01
+| Risk management plan
+
+|G1.03.00.02
+| Risk analysis
+|===
+
+=== Release of the risk assessment
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R & D
+|
+
+|QM/RA
+|
+|===
+

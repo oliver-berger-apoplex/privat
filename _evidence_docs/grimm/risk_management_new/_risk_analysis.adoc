@@ -1,0 +1,117 @@
+:pdf-themesdir: ../resources/themes
+include::../product_properties.adoc[]
+:hardbreaks-option:
+:toc:
+:toclevels: 4
+= {documentname}
+:author: PO
+:documentname: G1.03.00.02.Risk_analysis
+:risk_analysis:
+
+== Scope of the risk analysis
+
+According to the risk management process this document contains all risks according to the functional requirements.
+
+== Product information
+include::../product_summary.adoc[leveloffset=+1]
+
+== General information
+
+=== Persons involved in the risk analysis
+
+//Table with Name and Function? or Role and function?
+|===
+|Name | Function
+
+| Oliver Berger  | PO
+|   |
+
+|===
+
+=== Intended Use
+include::../development_plan/intended_use.adoc[leveloffset=+1]
+
+=== Intended Purpose and foreseeable misuse
+
+==== Purpose
+// Wording of the purpose statement or reference to it.
+
+==== Indications
+//Describe the reason for the use of the medical device
+
+==== Contraindications
+//Description of the cases in which the medical device must not be used
+
+==== Warnings / Precautions
+//Description of warnings and necessary precautions related to the use of the medical device.
+
+==== Patient poplulation / user group
+//Description of the patient group, possibly reference to restrictions.
+
+==== Contact with the patient / user / third party
+// Intended contact e.g. surface contact, invasive contact, implantation, and for each contact its duration and frequency.
+
+==== Effects of ageing on the performance of the medical device
+//  Description of the effect of ageing processes on the medical device.
+
+==== Lifetime of the medical device
+// Description of the expected service life.
+
+==== Serviceability
+// Description of the verification and validation of suitability for use, possibly reference to sepa-rate assessment.
+
+==== Foreseeable misuse
+// Description of foreseeable misuse (application error, intentional misuse or use for purposes not specified by the manufacturer).
+
+=== Identification of security-related features
+
+//Identification of the functions that are essential for the intended use and safety of the medical device.
+//Description of the medical device, indicating the qualitative and quantitative characteristics that could affect the safety of the medical device (if applicable, limit values of these characteristics shall be included).
+
+=== Assessment of the individual risks
+
+Following Table C1 of standard EN ISO 14971:2019, known and foreseeable hazards that may be associated with the medical device under both normal and failure conditions have been identified and documented.
+
+Information from the following points must be taken into account
+
+* from the consideration of fitness for use,
+* from the manufacturing and downstream phases of manufacturing,
+* from the cybersecurity risk analysis, if applicable
+
+For each identified hazard, the reasonably foreseeable sequence or combinations of events that may lead to a hazardous situation shall be considered.
+
+include::../requirements/*/use_cases/uc_*/risks/risk_*.adoc[leveloffset=+2]
+
+
+== Risks that became known through market observation, complaints or incidents
+// Summary description of data from customer complaints and PMS
+
+== Appendix
+
+=== Applicable documents and forms
+
+|===
+|Document ID |Title
+
+|G1.03.00.01
+| Risk management plan
+
+|G1.03.00.02
+| Risk assessment
+|===
+
+=== Release of the risk analysis
+
+|===
+|Approver |Date and signature
+
+|Product owner
+|
+
+|R & D
+|
+
+|QM/RA
+|
+|===
+
