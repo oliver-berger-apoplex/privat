@@ -4,6 +4,7 @@ include::product_properties.adoc[]
 = {documentname}
 :author: Head of R&D
 :documentname: G1.01.Verification_and_Validation_Report
+:usability_evaluation:
 
 == Product
 
@@ -16,7 +17,7 @@ include::requirements/*/use_cases/uc_*/verification.adoc[leveloffset=+1]
 === Conclusion
 
 == Validation
-
+include::requirements/*/use_cases/uc_*/validation.adoc[leveloffset=+1]
 |===
 |Clinical evaluation: Results and Records 
 
