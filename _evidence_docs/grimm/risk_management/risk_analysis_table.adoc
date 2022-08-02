@@ -64,13 +64,13 @@ The probabilities, severities and acceptance-regions refer to the risk acceptanc
 
 == Risk acceptance matrix before
 
-After the assessment of the identified risks according to the severity and probabilty, its number is reflected in the risk acceptance matrix <<ra_matrix_before-image>>. The occurence of risks in the yellow or red region means that they have to be mitigated.
+After the assessment of the identified risks according to the severity and probability, its number is reflected in the risk acceptance matrix <<ra_matrix_before-image>>. The occurrence of risks in the yellow or red region means that they have to be mitigated.
 [[ra_matrix_before-image]]
 image::diagramms/ra_matrix_before.svg[title="Risk acceptance matrix with number of risks before the application of risk control measures"]
 
 == Risk acceptance matrix after
 
-After the risk control measures have been applied the risks will move in the risk acceptance area, see <<ra_matrix_after-image>>. The occurence of no risks in the yellow or red region means that the mitigation has been successfull.
+After the risk control measures have been applied the risks will move in the risk acceptance area, see <<ra_matrix_after-image>>. The occurrence of no risks in the yellow or red region means that the mitigation has been successfull.
 [[ra_matrix_after-image]]
 image::diagramms/ra_matrix_after.svg[title="Risk acceptance matrix with number of risks before the application of risk control measures"]
 

@@ -16,7 +16,7 @@ The General Safety and Performance Requirements (GSPR)  1 - 9 require a risk man
 * *Risk management plan* according to the harmonised standard DIN EN ISO 14971 consisting of 4 steps or stages
 ** *Risk analysis*: to identify hazards
 ** *Risk assessment*: for the evaluation of risks
-** *Risk control*: the elimination or control of risks
+** *Risk control*: the elimination or _control_ of risks
 ** *adaptation*: by information from post-market surveillance
 
 === Definitions of Terms
