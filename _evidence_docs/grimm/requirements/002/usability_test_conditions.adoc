@@ -1,26 +1,27 @@
 // this description the testing conditions which should be the same for all use-cases in a requirement
 // therefore this file is on the same level as requirement.
-// if the usability-testing-conditions of severall requirements are the same, then this could be moved a level further
-==== User groups and training
+// if the usability-testing-conditions of several requirements are the same, then this could be moved a level further
+== User groups and training
 
-Describe which user groups are to be considered in the usability test and if and which training they shall receive.
+//Describe which user groups are to be considered in the usability test and if and which training they shall receive.
 
-==== Number of test participants
+== Number of test participants
 
-Specify how many participants shall take part in the test.
+//Specify how many participants shall take part in the test.
 
-==== Length of each test session
+== Length of each test session
 
-Specify how long each session of the usability test shall take.
+//Specify how long each session of the usability test shall take.
 
-==== Moderator
+== Moderator
 The test session will be moderated by the following person: {moderator}
 
-==== Location
-The usability test will take place <location>.
+== Location
+//The usability test will take place <location>.
+
 The location ensures that the below attributes can be simulated.
 
-==== Test environment / Conditions of use
+== Test environment / Conditions of use
 //The test should be conducted in a test environment that shows the main characteristics of the real use environment, e.g. noise level, ambient light level, operators position, etc.
 
 This Product is intended for use in <insert the environment>. The following table outlines a point-by-point comparison of the use environment and the simulated use environment.

@@ -4,8 +4,10 @@ include::product_properties.adoc[]
 :author: Head of R&D
 :documentname: G1.01.Risk_management_file
 
+== Individual Risk Analysis
 
-include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[]
+include::requirements/*/use_cases/uc_*/risks/risk_*.adoc[leveloffset=+1]
+
 
 == Risk/benefit analysis
 

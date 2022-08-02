@@ -1,4 +1,5 @@
-ifdef::usability_evaluation[]
+:usability_xevaluation:
+ifndef::usability_evaluation[]
 include::use_case_properties.adoc[]
 == Validation {use_case_id} {use_case_name}
 

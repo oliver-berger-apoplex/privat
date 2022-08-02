@@ -183,15 +183,20 @@ This method is considered appropriate to achieve the following objectives:
 
 Give a brief description of the developmental stage of the user interface and of the parts to be evaluated. In the focus of the formative evaluation are the user interface elements which are newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts.
 
-include::requirements/*/usability_test_conditions.adoc[leveloffset=+0]
+include::requirements/*/usability_test_conditions.adoc[leveloffset=+2]
 
 ==== Selection of use scenarios
 
 //Describe which use scenarios are to be considered in the usability test
+The following Use cases have to be validated
+They are described in detail in the requirement-profile
+// uncomment the following line for a list
+// include::requirements/*/use_cases/uc_*/use_case.adoc[leveloffset=+3]
 
-include::requirements/*/use_cases/uc_*/use_case.adoc[leveloffset=+3]
+include::requirements/*/use_cases/uc_*/validation.adoc[leveloffset=+3]
 
 ==== Test protocols
+
 A test protocol should be developed that addresses the following topics if applicable:
 
 •	Evaluated product
