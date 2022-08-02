@@ -7,24 +7,31 @@ include::../use_case_properties.adoc[]
 
 === Hazard
 // Describe the hazard for this use case
-* False positive analysis result
+* False negativ analysis result
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* Further treatment due to false positive analysis is performed
+* No treatment due to false negativ analysis is performed
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 2
+* Risk Potential: 8 i.e Not Acceptable
 
 === Risk control
 
+
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+no further mitigation possible
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+the medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks
+no new risks because of no measures
 endif::[]

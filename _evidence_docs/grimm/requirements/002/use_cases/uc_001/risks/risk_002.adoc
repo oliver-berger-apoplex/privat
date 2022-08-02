@@ -20,6 +20,8 @@ ifndef::requirement_profile[]
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Usability according to IEC 62366
+* reduce or eliminate the possibility for manual assignment
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
