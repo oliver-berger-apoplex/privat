@@ -3,23 +3,27 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Presentation of a non-representative 5-minute episode
 
 === Hazard
 // Describe the hazard for this use case
-* Presentation of a non-representative 5-minute episode
+* False negative analysis result, because the cardiologist uses the non-representative 5 min episode as base for his diagnosis.
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with AF is not recognized and will not be treated accordingly
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated according to other risk factors (e.g CHA2DS2-Vasc-Score)
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 2
+* Risk Potential: 8 i.e Not Acceptable
 
 === Risk control
 
 ==== Measures
-// Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Warning and information hint for the cardiologist, that he should observe other 5 min episodes in case the algorithm detected AF but the presented episodes do not show the AF-pattern.
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?

@@ -4,26 +4,34 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* The analysis cannot be performed, due to wrong format
 
 === Hazard
 No assignment of ecg data
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-A patient with AF/AFL is not recognized
+* The analysis cannot be performed and the expected outcome is not available and therefore cannot be used for a decision for further treatment. This leads to a delay in making a diagnosis.
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 1
+* Probability: 1
+* Risk Potential: 1 i.e Acceptable
 
 === Risk control
+* the supported ecg-formats are specified in the intended use
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* no further mitigation possible
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+* residual risk is accetable
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks
+* No measures and therefore no new risks
 endif::[]

@@ -3,14 +3,15 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Presentation of a non-representative 5-minute episode
 
 === Hazard
 // Describe the hazard for this use case
-* Presentation of a non-representative 5-minute episode
+* False negative analysis result, because the cardiologist uses the non-representative 5 min episode as base for his diagnosis.
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with AFL is not recognized and will not be treated accordingly
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated.
 
 ifndef::requirement_profile[]
 === Assessment

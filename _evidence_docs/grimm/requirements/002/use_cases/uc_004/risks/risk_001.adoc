@@ -4,23 +4,29 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Incorrect assignment of the analysis report.
 
 === Hazard
 // Describe the hazard for this use case
-* Incorrect assignment of the analysis report
+* False analysis result as base for making the diagnose
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with AF/AFL is not recognized
+* Wrong treatment due to wrong analysis is performed.
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 1
+* Risk Potential: 4 i.e Acceptable
 
 === Risk control
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Usability according to IEC 62366
+* reduce or eliminate the possibility for manual assignment
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?

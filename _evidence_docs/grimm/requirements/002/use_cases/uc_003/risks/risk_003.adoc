@@ -3,26 +3,33 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Wrong interpretation of the negative analysis result due to untrained personnel
 
 === Hazard
 // Describe the hazard for this use case
-* Wrong interpretation of the analysis result due to untrained personnel
+* False positive analysis result, because the untrained personnel does not recognise the negative result as such.
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with sinus ecg rhythm is not recognized as such, and will be treated inapropriately.
+* Treatment due to false positive analysis is performed, although a therapy would not have been indicated.
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 2
+* Risk Potential: 8 i.e Not Acceptable
 
 === Risk control
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Training of all users
+* User manual with clear use instructions
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+* The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks

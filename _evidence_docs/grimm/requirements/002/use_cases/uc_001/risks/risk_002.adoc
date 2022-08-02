@@ -3,18 +3,22 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Incorrect assignment of the analysis report, a patient with AF is not recognized
 
 === Hazard
 // Describe the hazard for this use case
-* Incorrect assignment of the analysis report
+* False negative analysis result in case the incorrect analysis is made of ecg data without AF
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with AF is not recognized
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated according to other risk factors (e.g CHA2DS2-Vasc-Score)
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 2
+* Risk Potential: 8 i.e Not Acceptable
 
 === Risk control
 
@@ -25,6 +29,7 @@ ifndef::requirement_profile[]
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+* The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks

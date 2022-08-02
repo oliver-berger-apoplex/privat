@@ -8,9 +8,13 @@ include::../use_case_properties.adoc[]
 // Describe the hazard for this use case
 * Wrong interpretation of the analysis result due to misleading presentation or unreadable analysis result
 
+=== Hazard
+// Describe the hazard for this use case
+* False negative analysis result, because the cardiologist misinterprets the presented information.
+
 === Harm
-// Which effect can the hazard have in the hazardous situtation?
-* A patient with AFL is not recognized and will not be treated accordingly
+// Which effect can the hazard have in the hazardous situation?
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated
 
 ifndef::requirement_profile[]
 === Assessment
@@ -20,6 +24,8 @@ ifndef::requirement_profile[]
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Training of all users
+* User manual with clear use instructions
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?

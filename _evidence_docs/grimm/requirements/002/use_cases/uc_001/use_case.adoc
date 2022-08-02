@@ -15,3 +15,7 @@ ifndef::requirement_proposal[]
 include::risks/risk_*.adoc[leveloffset=+2]
 include::verification.adoc[leveloffset=+1]
 endif::[]
+
+ifdef::usability_evaluation[]
+include::validation.adoc[leveloffset=+1]
+endif::[]

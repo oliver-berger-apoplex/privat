@@ -3,26 +3,33 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* Incorrect assignment of the analysis report, sinus ecg rhythm is not recognized as such
 
 === Hazard
 // Describe the hazard for this use case
-* Incorrect assignment of the analysis report
+* False positive analysis result in case the incorrect analysis is made of ecg data with arrhythmia
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* A patient with sinus ecg rhythm is not recognized as such, and will be treated inapropriately.
+* Treatment due to false positive analysis is performed, although a therapy would not have been indicated.
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 2
+* Risk Potential: 8 i.e Not Acceptable
 
 === Risk control
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Usability according to IEC 62366
+* reduce or eliminate the possibility for manual assignment
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+* The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks

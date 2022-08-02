@@ -4,14 +4,15 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* The algorithm does not recognize AFL in the ecg data
 
 === Hazard
 // Describe the hazard for this use case
-* False positive analysis result
+* False negative analysis result
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* Further treatment due to false positive analysis is performed
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated.
 
 ifndef::requirement_profile[]
 === Assessment

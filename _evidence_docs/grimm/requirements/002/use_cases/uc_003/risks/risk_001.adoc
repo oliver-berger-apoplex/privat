@@ -4,26 +4,32 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* The algorithm does recognize an arrhythmia in the ecg data
 
 === Hazard
 // Describe the hazard for this use case
-* False positiv analysis result
+* False positive analysis result
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* Further treatment due to false positiv analysis is performed
+* Further treatment due to false positive analysis is performed
 
 ifndef::requirement_profile[]
 === Assessment
 // Assess probability of occurrence and severity of harm according to Risk Management Process G1.03.
+* Severity: 4
+* Probability: 4
+* Risk Potential: 16 i.e Not Acceptable
 
 === Risk control
-A false positiv analysis result can be recognized by the cardiologists who are going to make the diagnosis. These cases are reported to apoplex and the relevant ecg-data are used for further improvement of the algorithm and therefore can result in a better sensitivity of the next version with adjusted Ai-model.
+A false positive analysis result can be recognized by the cardiologists who are going to make the diagnosis. These cases are reported to apoplex and the relevant ecg-data are used for further improvement of the algorithm and therefore can result in a better sensitivity of the next version of the software with adjusted AI-model.
+
 ==== Measures
-// Describe risk control measures including the verification of implementation and effectiveness of risk control measures
+* Warning or hint that in case of a positive analysis result further investigation or analysis of the ecg data has to be performed especially in cases where the result is not obvious*
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
+The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks

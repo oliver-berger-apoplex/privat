@@ -1,16 +1,7 @@
 :pdf-themesdir: resources/themes
 include::product_properties.adoc[]
-:toc:
-= {documentname}
-:author: PO
-:documentname: Usability_Evaluation_Plan
-//Use the flag: requirement-proposal reason: Do not include risks and verification of a Use_case
-//The requirements differ in the following aspects:
-// the requirement/Use-Case has a medical use which gets reflected/displayed by an UI-element. These are the Use-cases which have to be validated by validation of UI. (e.g analysis-result) according to IEC 62366
-//Requirements and Use-cases without clinical use. (e.g. Invoicing) Even if there is a UI, thiese requirements have not to be validated according to IEC-62366 because there is no associated risk
-// requirements with a clinical use but without a UI-Elements (e.g. AI-algorithm). They have to be validated by the clinical evaluation. By proving that the results reflect the current state of knowledge (science and technology)
 :requirement_proposal:
-:moderator: Jeff Moderator
+:usability_evaluation:
 
 = Usability Evaluation Plan
 
@@ -192,56 +183,13 @@ This method is considered appropriate to achieve the following objectives:
 
 Give a brief description of the developmental stage of the user interface and of the parts to be evaluated. In the focus of the formative evaluation are the user interface elements which are newly implemented features (which can comprise the whole user interface in case of a new development) or changes on existing user interface parts.
 
+include::requirements/*/usability_test_conditions.adoc[leveloffset=+0]
+
 ==== Selection of use scenarios
 
 //Describe which use scenarios are to be considered in the usability test
 
 include::requirements/*/use_cases/uc_*/use_case.adoc[leveloffset=+3]
-
-==== User groups and training
-
-Describe which user groups are to be considered in the usability test and if and which training they shall receive.
-
-==== Number of test participants
-
-Specify how many participants shall take part in the test.
-
-==== Length of each test session
-
-Specify how long each session of the usability test shall take.
-
-==== Moderator
-The test session will be moderated by the following person: {moderator}
-
-==== Location
-The usability test will take place <location>.
-The location ensures that the below attributes can be simulated.
-
-==== Test environment / Conditions of use
-//The test should be conducted in a test environment that shows the main characteristics of the real use environment, e.g. noise level, ambient light level, operators position, etc.
-
-This Product is intended for use in <insert the environment>. The following table outlines a point-by-point comparison of the use environment and the simulated use environment.
-
-|===
-|Environmental attribute |Typical environment the product is used in |Potential use-related effects |Environment in formative evaluation necessary to represent environment of use
-
-|E.g.: Ambient sound
-|Street, ambulance siren   noises.
-|Stress, reduced hearing   ability
-|Siren noises must be simulated
-
-|E.g.: Typical equipment used   (in conjunction with the medical device)
-|Patient room, laboratory   gloves
-|Operability of the touch   display
-|Participant must perform test   with gloves on
-|===
-
-==== Accompanying documentation
-//Specify if and which accompanying documentation is part of the usability test.
-
-==== Acceptance criteria
-//List acceptance criteria for each test scenario (test task) here or reference to another document (E.g. “Usability Test Protocol”).
-E.g.:The completion of a respective task serves as an acceptance criterion. For details see document XX...
 
 ==== Test protocols
 A test protocol should be developed that addresses the following topics if applicable:
@@ -316,7 +264,7 @@ This method is considered appropriate to produce an objective evidence that the 
 === Selection of use scenarios
 //List use scenarios which shall be included in usability test here.
 
-//All hazard-related use scenarios and critical tasks must be included in the summative usability evaluation. Non hazard-related use scenarios may also be included. use scenarios which contain a validation-section will be included:
+//All hazard-related use scenarios and critical tasks must be included in the summative usability evaluation. Non hazard-related use scenarios may also be included. use scenarios which contain a validation.adoc will be included:
 
 include::requirements/*/use_cases/uc_*/validation.adoc[leveloffset=+2]
 

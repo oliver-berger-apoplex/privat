@@ -4,14 +4,15 @@ include::../use_case_properties.adoc[]
 
 == Risk {use_case_id}-Risk{counter:riskcounter}
 // The hazardous situation is the use case
+* The algorithm does not recognize AF in the ecg data
 
 === Hazard
 // Describe the hazard for this use case
-* False negativ analysis result
+* False negative analysis result
 
 === Harm
 // Which effect can the hazard have in the hazardous situtation?
-* No treatment due to false negativ analysis is performed
+* No treatment due to false negative analysis is performed, although a therapy would have been indicated according to other risk factors (e.g CHA2DS2-Vasc-Score)
 
 ifndef::requirement_profile[]
 === Assessment
@@ -25,11 +26,11 @@ ifndef::requirement_profile[]
 
 ==== Measures
 // Describe risk control measures including the verification of implementation and effectiveness of risk control measures
-no further mitigation possible
+* No further mitigation possible
 
 ==== Assessment of residual risk
 // Is the residual risk acceptable (risk/benefit analysis)?
-the medical use of the medical device outweighs the risk.
+* The medical use of the medical device outweighs the risk.
 
 ==== Evaluation of new risks
 // Do any new risks arise from the control measures? Create and reference resulting risks

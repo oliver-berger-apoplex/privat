@@ -1,0 +1,12 @@
+ifdef::usability_evaluation[]
+include::use_case_properties.adoc[]
+== Validation {use_case_id} {use_case_name}
+
+* Acceptance criteria
+
+* Records and results
+
+* Accompanying documentation
+//Specify if and which accompanying documentation is part of the usability test.
+
+endif::[]
